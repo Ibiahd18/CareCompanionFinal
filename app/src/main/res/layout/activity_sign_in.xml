@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="wrap_content"
-    android:layout_height="match_parent"
+    android:layout_height="wrap_content"
     android:scrollbarThumbHorizontal="@color/design_default_color_primary"
     tools:context=".MainActivity">
 
@@ -97,6 +97,7 @@
 
     <!-- activity_main.xml -->
     <RelativeLayout
+        android:id="@+id/relativeLayout"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".MainActivity">
@@ -121,13 +122,13 @@
                 android:id="@+id/app_title"
                 android:layout_width="341dp"
                 android:layout_height="167dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
                 android:text="@string/app_title"
-                android:textSize="50dp"
-                android:textStyle="italic"
                 android:textAlignment="center"
                 android:textColor="#FBF9F9"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="20dp"/>
+                android:textSize="50dp"
+                android:textStyle="italic" />
         </FrameLayout>
     </RelativeLayout>
 
