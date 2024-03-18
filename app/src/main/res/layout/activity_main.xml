@@ -7,11 +7,10 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-
     <Button
         android:id="@+id/button"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="65dp"
         android:background="@drawable/btn_bg"
         android:text="→"
         android:textSize="50dp"
@@ -21,8 +20,44 @@
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.96" />
+        app:layout_constraintVertical_bias="0.976"/>
 
 
+        <!-- activity_main.xml -->
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <!-- ImageView with background color -->
+
+            <ImageView
+                android:id="@+id/img"
+                android:layout_width="411dp"
+                android:layout_height="200dp"
+                android:background="@drawable/curve_top_bg"
+                android:contentDescription="@string/app_name"
+                android:cropToPadding="false"
+                android:minWidth="60dp"
+                android:rotation="540" />
+
+            <TextView
+                android:id="@+id/app_title"
+                android:layout_width="341dp"
+                android:layout_height="167dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/app_title"
+                android:textAlignment="center"
+                android:textColor="#FBF9F9"
+                android:textSize="50dp"
+                android:textStyle="italic" />
+        </FrameLayout>
+    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
