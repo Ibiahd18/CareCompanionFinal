@@ -3,6 +3,7 @@ package com.example.carecompanionfinal;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,8 +24,15 @@ public class SignInActivity extends AppCompatActivity {
             return insets;
         });
     }
-    public void launchHomepage(View v){
-        Intent i = new Intent(this, MainActivity.class);
-        startActivity(i);
+
+    public void launchHomepage(SignInActivity v) {
+        String email = "email";
+        String password = "password";
+        if (getString(txtEmail) = email && getString(txtPassword) = password) {
+            Intent i = new Intent(this, MainActivity.class);
+            startActivity(i);
+        } else {
+            Toast.makeText(this, "Invalid email or password", Toast.LENGTH_SHORT).show();
+        }
     }
 }
