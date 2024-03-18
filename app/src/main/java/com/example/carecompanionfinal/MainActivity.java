@@ -1,7 +1,10 @@
 package com.example.carecompanionfinal;
 
+import android.content.Intent;
 import android.os.Bundle;
-import android.widget.Button;
+
+import android.view.View;
+
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -23,4 +26,27 @@ public class MainActivity extends AppCompatActivity {
         });
 
     }
+
+    public void launchSettingsPage(View v){
+        Intent i = new Intent(this, SettingsActivity.class);
+        startActivity(i);
+    }
+    public void launchMedicalIDPage(View v){
+        Intent i = new Intent(this, MedicalIDActivity.class);
+        startActivity(i);
+    }
+    public void launchCalendarPage(View v){
+        Intent i = new Intent(this, CalendarActivity.class);
+        startActivity(i);
+    }
+    public void launchNavigationPage(View v){
+        Intent i = new Intent(this, NavigationActivity.class);
+        startActivity(i);
+    }
+    public void launchHealthTipsPage(View v){
+        Intent i = new Intent(this, HealthTipsActivity.class);
+        startActivity(i);
+    }
+
+
 }

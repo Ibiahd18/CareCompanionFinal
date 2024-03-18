@@ -18,6 +18,9 @@
         app:srcCompat="@drawable/signin_design4"
         tools:ignore="MissingConstraints" />
 
+
+
+
     <TextView
         android:id="@+id/txtView2"
         android:layout_width="191dp"
@@ -107,6 +110,7 @@
                 android:text="Remember me" />
 
             <TextView
+
                 android:id="@+id/txtView5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
@@ -147,3 +151,4 @@
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+

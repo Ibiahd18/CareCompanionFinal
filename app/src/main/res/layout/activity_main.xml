@@ -8,56 +8,83 @@
     tools:context=".MainActivity">
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="wrap_content"
-        android:layout_height="65dp"
-        android:background="@drawable/btn_bg"
-        android:text="→"
-        android:textSize="50dp"
-        android:textStyle="bold"
+
+        android:id="@+id/navigationButton"
+        android:layout_width="146dp"
+        android:layout_height="171dp"
+        android:layout_marginEnd="48dp"
+        android:onClick="launchNavigationPage"
+        android:text="@string/navigation_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.465" />
+
+    <Button
+        android:id="@+id/settingsButton"
+        android:layout_width="154dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="40dp"
+        android:onClick="launchSettingsPage"
+        android:text="@string/settings_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/navigationButton"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976"/>
+        app:layout_constraintVertical_bias="0.47" />
+
+    <Button
+        android:id="@+id/medicalIdButton"
+        android:layout_width="148dp"
+        android:layout_height="177dp"
+        android:layout_marginStart="40dp"
+        android:onClick="launchMedicalIDPage"
+        android:text="@string/medical_id_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/calendarButton"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <Button
+        android:id="@+id/calendarButton"
+        android:layout_width="146dp"
+        android:layout_height="178dp"
+        android:layout_marginEnd="48dp"
+        android:onClick="launchCalendarPage"
+        android:text="@string/calendar_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.175" />
+
+    <Button
+        android:id="@+id/healthTipsButton"
+        android:layout_width="155dp"
+        android:layout_height="189dp"
+        android:onClick="launchHealthTipsPage"
+        android:text="@string/health_tips_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.152"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.793" />
+
+    <ImageButton
+        android:id="@+id/imageButton3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:backgroundTint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/timtim_without_text" />
 
 
-        <!-- activity_main.xml -->
-    <RelativeLayout
-        android:id="@+id/relativeLayout"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        tools:context=".MainActivity">
-
-        <FrameLayout
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
-
-            <!-- ImageView with background color -->
-
-            <ImageView
-                android:id="@+id/img"
-                android:layout_width="411dp"
-                android:layout_height="200dp"
-                android:background="@drawable/curve_top_bg"
-                android:contentDescription="@string/app_name"
-                android:cropToPadding="false"
-                android:minWidth="60dp"
-                android:rotation="540" />
-
-            <TextView
-                android:id="@+id/app_title"
-                android:layout_width="341dp"
-                android:layout_height="167dp"
-                android:layout_marginLeft="30dp"
-                android:layout_marginTop="20dp"
-                android:text="@string/app_title"
-                android:textAlignment="center"
-                android:textColor="#FBF9F9"
-                android:textSize="50dp"
-                android:textStyle="italic" />
-        </FrameLayout>
-    </RelativeLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
