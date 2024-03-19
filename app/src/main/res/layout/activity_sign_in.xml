@@ -19,8 +19,6 @@
         tools:ignore="MissingConstraints" />
 
 
-
-
     <TextView
         android:id="@+id/txtView2"
         android:layout_width="191dp"

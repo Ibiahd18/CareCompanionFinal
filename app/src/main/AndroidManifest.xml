@@ -11,6 +11,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CareCompanionFinal"
         tools:targetApi="31">
+        <activity
+            android:name=".Create_medical"
+            android:exported="false" />
         <!--
         android:icon="@mipmap/ic_launcher"
         android:roundIcon="@mipmap/ic_launcher_round"
@@ -21,7 +24,6 @@
             android:label="Health Tips"
             android:theme="@style/Theme.CareCompanionFinal.NoActionBar" />
         <!--
-
              TODO: Before you run your application, you need a Google Maps API key.
 
              To get one, follow the directions here:
@@ -40,26 +42,26 @@
             android:name=".NavigationActivity"
             android:exported="false"
             android:label="Navigation"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".CalendarActivity"
             android:exported="false"
             android:label="Calendar &amp; Reminders"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MedicalIDActivity"
             android:exported="false"
             android:label="Medical ID"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".SettingsActivity"
             android:exported="false"
             android:label="Settings"
-            android:parentActivityName=".MainActivity"/>
+            android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:label="Home"/>
+            android:label="Home" />
         <activity
             android:name=".SignInActivity"
             android:exported="true"

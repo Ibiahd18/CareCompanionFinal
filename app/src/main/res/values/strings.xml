@@ -13,6 +13,13 @@
     <string name="navigation_button">Navigation</string>
     <string name="health_tips_button">Health Tips</string>
 
+    <string-array name="options_array">
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <!-- Add more items if needed -->
+    </string-array>
+
     <string name="large_text">
         "Material is the metaphor.\n\n"
 
