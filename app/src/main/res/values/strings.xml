@@ -14,10 +14,10 @@
     <string name="health_tips_button">Health Tips</string>
 
     <string-array name="options_array">
-        <item>Option 1</item>
-        <item>Option 2</item>
-        <item>Option 3</item>
-        <!-- Add more items if needed -->
+        <item>Type A</item>
+        <item>Type B</item>
+        <item>Type AB</item>
+        <item>Type O</item>
     </string-array>
 
     <string name="large_text">

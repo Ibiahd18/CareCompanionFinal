@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2B3743"
+    android:background="#39495C"
     tools:context=".Create_medical">
 
     <LinearLayout
@@ -22,28 +22,28 @@
             android:text="Medical Information"
             android:textStyle="bold"
             android:textSize="22dp"
-            android:paddingTop="12dp"
-            android:textColor="#F2F2F2"/>
+            android:paddingTop="10dp"
+            android:textColor="#C4D2E1"/>
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Please provide your medical information in the columns below."
-            android:textColor="#83AAD3"
-            android:textSize="16dp" />
+            android:textColor="#B1BCC8"
+            android:textSize="15dp" />
 
         <EditText
             android:id="@+id/txtcondition"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/clipboard_list_svgrepo_com__1_"
+            android:drawableLeft="@drawable/clipboard_list_svgrepo_com__2_"
             android:ems="10"
-            android:drawablePadding="25dp"
+            android:drawablePadding="20dp"
             android:text="Medical conditions"
-            android:textColor="#000000"
+            android:textColor="#C2CAD3"
             android:textSize="16dp"
             android:textStyle="bold"/>
 
@@ -57,6 +57,7 @@
             android:text="List your medical conditions"
             android:textSize="16dp"
             android:background="@null"
+            android:textColor="#C2CAD3"
             android:paddingStart="50dp"/>
 
         <View
@@ -70,41 +71,21 @@
             android:id="@+id/txtcondition2"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/clipboard_list_svgrepo_com__1_"
+            android:drawableLeft="@drawable/blood_type_svgrepo_com"
             android:ems="10"
-            android:drawablePadding="25dp"
+            android:drawablePadding="20dp"
             android:text="Medical conditions"
-            android:textColor="#000000"
+            android:textColor="#C2CAD3"
             android:textSize="16dp"
             android:textStyle="bold"/>
 
-<!--        <Spinner-->
-<!--            android:id="@+id/select"-->
-<!--            android:layout_width="fill_parent"-->
-<!--            android:layout_height="wrap_content"-->
-<!--            android:layout_marginBottom="20dp"-->
-<!--            android:layout_marginTop="20dp"-->
-<!--            android:orientation="vertical"/>-->
         <Spinner
             android:id="@+id/spinner"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="16dp"/>
-
-<!--        <EditText-->
-<!--            android:id="@+id/editTxtMultiLine2"-->
-<!--            android:layout_width="320dp"-->
-<!--            android:layout_height="30dp"-->
-<!--            android:ems="10"-->
-<!--            android:gravity="start|top"-->
-<!--            android:inputType="textMultiLine"-->
-<!--            android:text="List your medical conditions"-->
-<!--            android:textSize="16dp"-->
-<!--            android:background="@null"-->
-<!--            android:paddingStart="50dp"/>-->
-
+            android:layout_width="320dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="50dp"/>
 
         <View
             android:layout_width="320dp"
@@ -117,13 +98,13 @@
             android:id="@+id/txtcondition3"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/clipboard_list_svgrepo_com__1_"
+            android:drawableLeft="@drawable/no_svgrepo_com"
             android:ems="10"
-            android:drawablePadding="25dp"
+            android:drawablePadding="20dp"
             android:text="Medical conditions"
-            android:textColor="#000000"
+            android:textColor="#C2CAD3"
             android:textSize="16dp"
             android:textStyle="bold"/>
 
@@ -137,6 +118,7 @@
             android:text="List your medical conditions"
             android:textSize="16dp"
             android:background="@null"
+            android:textColor="#C2CAD3"
             android:paddingStart="50dp"/>
 
         <View
@@ -150,13 +132,13 @@
             android:id="@+id/txtcondition4"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/clipboard_list_svgrepo_com__1_"
+            android:drawableLeft="@drawable/medicine_svgrepo_com"
             android:ems="10"
-            android:drawablePadding="25dp"
+            android:drawablePadding="20dp"
             android:text="Medical conditions"
-            android:textColor="#000000"
+            android:textColor="#C2CAD3"
             android:textSize="16dp"
             android:textStyle="bold"/>
 
@@ -170,28 +152,29 @@
             android:text="List your medical conditions"
             android:textSize="16dp"
             android:background="@null"
+            android:textColor="#C2CAD3"
             android:paddingStart="50dp"/>
 
         <View
             android:layout_width="320dp"
-            android:layout_height="1dp"
+            android:layout_height="1.5dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="3dp"
             android:background="#000000" />
 
         <EditText
             android:id="@+id/txtcondition5"
-            android:layout_width="332dp"
+            android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/clipboard_list_svgrepo_com__1_"
+            android:drawableLeft="@drawable/weight_svgrepo_com"
+            android:drawablePadding="20dp"
             android:ems="10"
-            android:drawablePadding="25dp"
             android:text="Medical conditions"
-            android:textColor="#000000"
+            android:textColor="#C2CAD3"
             android:textSize="16dp"
-            android:textStyle="bold"/>
+            android:textStyle="bold" />
 
         <EditText
             android:id="@+id/editTxtMultiLine5"
@@ -203,11 +186,12 @@
             android:text="List your medical conditions"
             android:textSize="16dp"
             android:background="@null"
+            android:textColor="#C2CAD3"
             android:paddingStart="50dp"/>
 
         <View
             android:layout_width="320dp"
-            android:layout_height="1dp"
+            android:layout_height="1.5dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="3dp"
             android:background="#000000" />
@@ -216,13 +200,13 @@
             android:id="@+id/txtcondition6"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/clipboard_list_svgrepo_com__1_"
+            android:drawableLeft="@drawable/stick_man_svgrepo_com"
             android:ems="10"
-            android:drawablePadding="25dp"
+            android:drawablePadding="20dp"
             android:text="Medical conditions"
-            android:textColor="#000000"
+            android:textColor="#C2CAD3"
             android:textSize="16dp"
             android:textStyle="bold"/>
 
@@ -236,6 +220,7 @@
             android:text="List your medical conditions"
             android:textSize="16dp"
             android:background="@null"
+            android:textColor="#C2CAD3"
             android:paddingStart="50dp"/>
 
         <View
@@ -249,13 +234,13 @@
             android:id="@+id/txtcondition7"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/clipboard_list_svgrepo_com__1_"
+            android:drawableLeft="@drawable/date_svgrepo_com"
             android:ems="10"
-            android:drawablePadding="25dp"
+            android:drawablePadding="20dp"
             android:text="Medical conditions"
-            android:textColor="#000000"
+            android:textColor="#C2CAD3"
             android:textSize="16dp"
             android:textStyle="bold"/>
 
@@ -269,6 +254,7 @@
             android:text="List your medical conditions"
             android:textSize="16dp"
             android:background="@null"
+            android:textColor="#C2CAD3"
             android:paddingStart="50dp"/>
 
         <View
@@ -277,17 +263,18 @@
             android:layout_marginStart="50dp"
             android:layout_marginTop="3dp"
             android:background="#000000" />
+
         <EditText
             android:id="@+id/txtcondition8"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/clipboard_list_svgrepo_com__1_"
+            android:drawableLeft="@drawable/address_location_map_svgrepo_com"
             android:ems="10"
-            android:drawablePadding="25dp"
+            android:drawablePadding="20dp"
             android:text="Medical conditions"
-            android:textColor="#000000"
+            android:textColor="#C2CAD3"
             android:textSize="16dp"
             android:textStyle="bold"/>
 
@@ -301,6 +288,7 @@
             android:text="List your medical conditions"
             android:textSize="16dp"
             android:background="@null"
+            android:textColor="#C2CAD3"
             android:paddingStart="50dp"/>
 
         <View
@@ -314,13 +302,13 @@
             android:id="@+id/txtcondition9"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="8dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/clipboard_list_svgrepo_com__1_"
+            android:drawableLeft="@drawable/donations_svgrepo_com"
             android:ems="10"
-            android:drawablePadding="25dp"
+            android:drawablePadding="20dp"
             android:text="Medical conditions"
-            android:textColor="#000000"
+            android:textColor="#C2CAD3"
             android:textSize="16dp"
             android:textStyle="bold"/>
 
@@ -334,14 +322,8 @@
             android:text="List your medical conditions"
             android:textSize="16dp"
             android:background="@null"
+            android:textColor="#C2CAD3"
             android:paddingStart="50dp"/>
-
-        <View
-            android:layout_width="320dp"
-            android:layout_height="1dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="3dp"
-            android:background="#000000" />
 
     </LinearLayout>
 

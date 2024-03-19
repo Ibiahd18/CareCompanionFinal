@@ -23,7 +23,6 @@ public class SignInActivity extends AppCompatActivity {
             return insets;
         });
     }
-
     public void launchHomepage(View v){
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
