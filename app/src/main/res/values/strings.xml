@@ -14,6 +14,7 @@
     <string name="health_tips_button">Health Tips</string>
 
     <string-array name="options_array">
+        <item>Tap to select blood type</item>
         <item>Type A</item>
         <item>Type B</item>
         <item>Type AB</item>
@@ -110,4 +111,23 @@
         "when a user tries to pick up one of cards.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="please_provide_your_medical_information_in_the_columns_below">Please provide your medical information in the columns below.</string>
+    <string name="medical_information">Medical Information</string>
+    <string name="medical_conditions">Medical conditions</string>
+    <string name="list_your_medical_conditions">List your medical conditions</string>
+    <string name="blood_type">Blood type</string>
+    <string name="allergies">Allergies</string>
+    <string name="list_your_allergies">List your allergies</string>
+    <string name="current_medication">Current medication</string>
+    <string name="list_any_medication_you_take">List any medication you take</string>
+    <string name="weight">Weight</string>
+    <string name="enter_your_weight">Enter your weight</string>
+    <string name="date_of_birth">Date of birth</string>
+    <string name="list_your_dob">List your DOB</string>
+    <string name="address">Address</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="organ_donor">Organ donor</string>
+    <string name="tap_to_set_satus">Tap to set satus</string>
+    <string name="enter_your_height">Enter your height</string>
+    <string name="height">Height</string>
 </resources>

@@ -19,32 +19,32 @@
             android:id="@+id/textView6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Medical Information"
+            android:text="@string/medical_information"
             android:textStyle="bold"
-            android:textSize="22dp"
-            android:paddingTop="10dp"
+            android:textSize="22sp"
+            android:paddingTop="12dp"
             android:textColor="#C4D2E1"/>
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Please provide your medical information in the columns below."
+            android:text="@string/please_provide_your_medical_information_in_the_columns_below"
             android:textColor="#B1BCC8"
-            android:textSize="15dp" />
+            android:textSize="16sp" />
 
         <EditText
             android:id="@+id/txtcondition"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="12dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/clipboard_list_svgrepo_com__2_"
+            android:drawableStart="@drawable/clipboard_list_svgrepo_com__2_"
             android:ems="10"
             android:drawablePadding="20dp"
-            android:text="Medical conditions"
+            android:text="@string/medical_conditions"
             android:textColor="#C2CAD3"
-            android:textSize="16dp"
+            android:textSize="17sp"
             android:textStyle="bold"/>
 
         <EditText
@@ -54,11 +54,12 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:text="List your medical conditions"
-            android:textSize="16dp"
+            android:text="@string/list_your_medical_conditions"
+            android:textSize="16sp"
             android:background="@null"
             android:textColor="#C2CAD3"
-            android:paddingStart="50dp"/>
+            android:paddingStart="50dp"
+            tools:ignore="RtlSymmetry" />
 
         <View
             android:layout_width="320dp"
@@ -71,21 +72,22 @@
             android:id="@+id/txtcondition2"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/blood_type_svgrepo_com"
+            android:drawableStart="@drawable/blood_type_svgrepo_com"
             android:ems="10"
             android:drawablePadding="20dp"
-            android:text="Medical conditions"
+            android:text="@string/blood_type"
             android:textColor="#C2CAD3"
-            android:textSize="16dp"
+            android:textSize="17sp"
             android:textStyle="bold"/>
 
         <Spinner
             android:id="@+id/spinner"
             android:layout_width="320dp"
             android:layout_height="30dp"
-            android:layout_marginStart="50dp"/>
+            android:layout_marginStart="50dp"
+            android:textColor="#C2CAD3"/>
 
         <View
             android:layout_width="320dp"
@@ -98,14 +100,14 @@
             android:id="@+id/txtcondition3"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/no_svgrepo_com"
+            android:drawableStart="@drawable/no_svgrepo_com"
             android:ems="10"
             android:drawablePadding="20dp"
-            android:text="Medical conditions"
+            android:text="@string/allergies"
             android:textColor="#C2CAD3"
-            android:textSize="16dp"
+            android:textSize="17sp"
             android:textStyle="bold"/>
 
         <EditText
@@ -115,11 +117,12 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:text="List your medical conditions"
-            android:textSize="16dp"
+            android:text="@string/list_your_allergies"
+            android:textSize="16sp"
             android:background="@null"
             android:textColor="#C2CAD3"
-            android:paddingStart="50dp"/>
+            android:paddingStart="50dp"
+            tools:ignore="RtlSymmetry" />
 
         <View
             android:layout_width="320dp"
@@ -132,14 +135,14 @@
             android:id="@+id/txtcondition4"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/medicine_svgrepo_com"
+            android:drawableStart="@drawable/medicine_svgrepo_com"
             android:ems="10"
             android:drawablePadding="20dp"
-            android:text="Medical conditions"
+            android:text="@string/current_medication"
             android:textColor="#C2CAD3"
-            android:textSize="16dp"
+            android:textSize="17sp"
             android:textStyle="bold"/>
 
         <EditText
@@ -149,15 +152,16 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:text="List your medical conditions"
-            android:textSize="16dp"
+            android:text="@string/list_any_medication_you_take"
+            android:textSize="16sp"
             android:background="@null"
             android:textColor="#C2CAD3"
-            android:paddingStart="50dp"/>
+            android:paddingStart="50dp"
+            tools:ignore="RtlSymmetry" />
 
         <View
             android:layout_width="320dp"
-            android:layout_height="1.5dp"
+            android:layout_height="1dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="3dp"
             android:background="#000000" />
@@ -166,14 +170,14 @@
             android:id="@+id/txtcondition5"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/weight_svgrepo_com"
+            android:drawableStart="@drawable/weight_svgrepo_com"
             android:drawablePadding="20dp"
             android:ems="10"
-            android:text="Medical conditions"
+            android:text="@string/weight"
             android:textColor="#C2CAD3"
-            android:textSize="16dp"
+            android:textSize="17sp"
             android:textStyle="bold" />
 
         <EditText
@@ -183,15 +187,16 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:text="List your medical conditions"
-            android:textSize="16dp"
+            android:text="@string/enter_your_weight"
+            android:textSize="16sp"
             android:background="@null"
             android:textColor="#C2CAD3"
-            android:paddingStart="50dp"/>
+            android:paddingStart="50dp"
+            tools:ignore="RtlSymmetry" />
 
         <View
             android:layout_width="320dp"
-            android:layout_height="1.5dp"
+            android:layout_height="1dp"
             android:layout_marginStart="50dp"
             android:layout_marginTop="3dp"
             android:background="#000000" />
@@ -200,14 +205,14 @@
             android:id="@+id/txtcondition6"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/stick_man_svgrepo_com"
+            android:drawableStart="@drawable/stick_man_svgrepo_com"
             android:ems="10"
             android:drawablePadding="20dp"
-            android:text="Medical conditions"
+            android:text="@string/height"
             android:textColor="#C2CAD3"
-            android:textSize="16dp"
+            android:textSize="17sp"
             android:textStyle="bold"/>
 
         <EditText
@@ -217,11 +222,12 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:text="List your medical conditions"
-            android:textSize="16dp"
+            android:text="@string/enter_your_height"
+            android:textSize="16sp"
             android:background="@null"
             android:textColor="#C2CAD3"
-            android:paddingStart="50dp"/>
+            android:paddingStart="50dp"
+            tools:ignore="RtlSymmetry" />
 
         <View
             android:layout_width="320dp"
@@ -234,14 +240,14 @@
             android:id="@+id/txtcondition7"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/date_svgrepo_com"
+            android:drawableStart="@drawable/date_svgrepo_com"
             android:ems="10"
             android:drawablePadding="20dp"
-            android:text="Medical conditions"
+            android:text="@string/date_of_birth"
             android:textColor="#C2CAD3"
-            android:textSize="16dp"
+            android:textSize="17sp"
             android:textStyle="bold"/>
 
         <EditText
@@ -251,11 +257,12 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:text="List your medical conditions"
-            android:textSize="16dp"
+            android:text="@string/list_your_dob"
+            android:textSize="16sp"
             android:background="@null"
             android:textColor="#C2CAD3"
-            android:paddingStart="50dp"/>
+            android:paddingStart="50dp"
+            tools:ignore="RtlSymmetry" />
 
         <View
             android:layout_width="320dp"
@@ -268,14 +275,14 @@
             android:id="@+id/txtcondition8"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/address_location_map_svgrepo_com"
+            android:drawableStart="@drawable/address_location_map_svgrepo_com"
             android:ems="10"
             android:drawablePadding="20dp"
-            android:text="Medical conditions"
+            android:text="@string/address"
             android:textColor="#C2CAD3"
-            android:textSize="16dp"
+            android:textSize="17sp"
             android:textStyle="bold"/>
 
         <EditText
@@ -285,11 +292,12 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:text="List your medical conditions"
-            android:textSize="16dp"
+            android:text="@string/enter_your_address"
+            android:textSize="16sp"
             android:background="@null"
             android:textColor="#C2CAD3"
-            android:paddingStart="50dp"/>
+            android:paddingStart="50dp"
+            tools:ignore="RtlSymmetry" />
 
         <View
             android:layout_width="320dp"
@@ -302,14 +310,14 @@
             android:id="@+id/txtcondition9"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="10dp"
             android:background="@drawable/medical_id_bg"
-            android:drawableLeft="@drawable/donations_svgrepo_com"
+            android:drawableStart="@drawable/donations_svgrepo_com"
             android:ems="10"
             android:drawablePadding="20dp"
-            android:text="Medical conditions"
+            android:text="@string/organ_donor"
             android:textColor="#C2CAD3"
-            android:textSize="16dp"
+            android:textSize="17sp"
             android:textStyle="bold"/>
 
         <EditText
@@ -319,11 +327,25 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:text="List your medical conditions"
-            android:textSize="16dp"
+            android:text="@string/tap_to_set_satus"
+            android:textSize="16sp"
             android:background="@null"
             android:textColor="#C2CAD3"
-            android:paddingStart="50dp"/>
+            android:paddingStart="50dp"
+            tools:ignore="RtlSymmetry" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="180dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/btn_bg"
+            android:text="Sign up"
+            android:textAllCaps="false"
+            android:textColor="#FBF9F9"
+            android:textSize="23dp"/>
+
 
     </LinearLayout>
 
