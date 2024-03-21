@@ -48,7 +48,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
             android:layout_marginTop="60dp"
-            android:text="@string/first_name"
+            android:text="@string/full_name"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -62,7 +62,7 @@
             android:background="@drawable/edittext_bg"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="@string/enter_your_first_name"
+            android:hint="@string/enter_your_name"
             android:padding="12dp"
             android:textColor="#707070"
             android:textSize="15sp" />
@@ -73,7 +73,7 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
             android:layout_marginTop="20dp"
-            android:text="@string/last_name"
+            android:text="@string/date_of_birth"
             android:textColor="@color/black"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -87,10 +87,11 @@
             android:background="@drawable/edittext_bg"
             android:ems="10"
             android:inputType="textPersonName"
-            android:hint="@string/enter_your_flast_name"
+            android:hint="@string/dd_mm_yyyy"
             android:padding="12dp"
             android:textColor="#707070"
-            android:textSize="15sp" />
+            android:textSize="15sp"
+            android:drawableRight="@drawable/baseline_calendar_month_24"/>
 
         <TextView
             android:id="@+id/txtView7"

@@ -134,8 +134,6 @@
     <string name="next">Next</string>
     <string name="re_enter_password">Re-Enter Password</string>
     <string name="sign_up">Sign up</string>
-    <string name="first_name">First name</string>
-    <string name="last_name">Last name</string>
     <string name="email">Email</string>
     <string name="enter_your_email">Enter Your Email</string>
     <string name="password">Password</string>
@@ -143,8 +141,6 @@
     <string name="verify_password">Verify password</string>
     <string name="yes_i_agree_to_the">Yes, I agree to the</string>
     <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
-    <string name="enter_your_first_name">Enter your first name</string>
-    <string name="enter_your_flast_name">Enter your last name</string>
     <string name="create_an_account">Create an Account</string>
     <string name="janedoe_gmail_com">janedoe@gmail.com</string>
     <string name="list_your_medical_conditions">List your medical conditions</string>
@@ -159,4 +155,6 @@
     <string name="remember_me">Remember me</string>
     <string name="log_in">Log in</string>
     <string name="create_account">Create account</string>
+    <string name="full_name">Full name</string>
+    <string name="enter_your_name">Enter your name</string>
 </resources>

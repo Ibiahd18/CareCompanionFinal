@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#39495C"
+    android:background="@color/dark_blue"
     tools:context=".Create_medical">
 
     <LinearLayout
@@ -21,31 +21,36 @@
             android:layout_height="wrap_content"
             android:text="@string/medical_information"
             android:textStyle="bold"
-            android:textSize="22sp"
-            android:paddingTop="12dp"
-            android:textColor="#C4D2E1"/>
+            android:textSize="25sp"
+            android:paddingTop="16dp"
+            android:paddingStart="6dp"
+            android:textColor="#BFCBD8"/>
 
         <TextView
             android:id="@+id/textView7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:paddingTop="6dp"
+            android:paddingStart="6dp"
             android:text="@string/please_provide_your_medical_information_in_the_columns_below"
-            android:textColor="#B1BCC8"
-            android:textSize="16sp" />
+            android:textColor="#BFCBD8"
+            android:textSize="16sp"
+            tools:ignore="RtlSymmetry" />
 
         <EditText
             android:id="@+id/txtcondition"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="12dp"
+            android:layout_marginTop="18dp"
             android:background="@drawable/medical_id_bg"
             android:drawableStart="@drawable/clipboard_list_svgrepo_com__2_"
             android:ems="10"
             android:drawablePadding="20dp"
-            android:text="@string/medical_conditions"
-            android:textColor="#C2CAD3"
+            android:hint="@string/medical_conditions"
+            android:textColorHint="#BFCBD8"
             android:textSize="17sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:editable="false"/>
 
         <EditText
             android:id="@+id/editTxtMultiLine"
@@ -57,7 +62,7 @@
             android:hint="@string/list_your_medical_conditions"
             android:textSize="16sp"
             android:background="@null"
-            android:textColorHint="#C2CAD3"
+            android:textColorHint="#BFCBD8"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -72,15 +77,16 @@
             android:id="@+id/txtcondition2"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="13dp"
             android:background="@drawable/medical_id_bg"
             android:drawableStart="@drawable/blood_type_svgrepo_com"
             android:ems="10"
             android:drawablePadding="20dp"
-            android:text="@string/blood_type"
-            android:textColor="#C2CAD3"
+            android:hint="@string/blood_type"
+            android:textColorHint="#BFCBD8"
             android:textSize="17sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:editable="false"/>
 
         <Spinner
             android:id="@+id/spinnerBlood"
@@ -99,15 +105,16 @@
             android:id="@+id/txtcondition3"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="13dp"
             android:background="@drawable/medical_id_bg"
             android:drawableStart="@drawable/no_svgrepo_com"
             android:ems="10"
             android:drawablePadding="20dp"
-            android:text="@string/allergies"
-            android:textColor="#C2CAD3"
+            android:hint="@string/allergies"
+            android:textColorHint="#BFCBD8"
             android:textSize="17sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:editable="false"/>
 
         <EditText
             android:id="@+id/editTxtMultiLine3"
@@ -119,7 +126,7 @@
             android:hint="@string/list_your_allergies"
             android:textSize="16sp"
             android:background="@null"
-            android:textColorHint="#C2CAD3"
+            android:textColorHint="#BFCBD8"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -134,15 +141,16 @@
             android:id="@+id/txtcondition4"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="13dp"
             android:background="@drawable/medical_id_bg"
             android:drawableStart="@drawable/medicine_svgrepo_com"
             android:ems="10"
             android:drawablePadding="20dp"
-            android:text="@string/current_medication"
-            android:textColor="#C2CAD3"
+            android:hint="@string/current_medication"
+            android:textColorHint="#BFCBD8"
             android:textSize="17sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:editable="false"/>
 
         <EditText
             android:id="@+id/editTxtMultiLine4"
@@ -154,7 +162,7 @@
             android:hint="@string/list_any_medication_you_take"
             android:textSize="16sp"
             android:background="@null"
-            android:textColorHint="#C2CAD3"
+            android:textColorHint="#BFCBD8"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -169,15 +177,16 @@
             android:id="@+id/txtcondition5"
             android:layout_width="match_parent"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="13dp"
             android:background="@drawable/medical_id_bg"
             android:drawableStart="@drawable/weight_svgrepo_com"
             android:drawablePadding="20dp"
             android:ems="10"
-            android:text="@string/weight"
-            android:textColor="#C2CAD3"
+            android:hint="@string/weight"
+            android:textColorHint="#BFCBD8"
             android:textSize="17sp"
-            android:textStyle="bold" />
+            android:textStyle="bold"
+            android:editable="false"/>
 
         <EditText
             android:id="@+id/editTxtMultiLine5"
@@ -187,7 +196,7 @@
             android:hint="@string/enter_your_weight"
             android:textSize="16sp"
             android:background="@null"
-            android:textColorHint="#C2CAD3"
+            android:textColorHint="#BFCBD8"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -202,15 +211,16 @@
             android:id="@+id/txtcondition6"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="13dp"
             android:background="@drawable/medical_id_bg"
             android:drawableStart="@drawable/stick_man_svgrepo_com"
-            android:ems="10"
             android:drawablePadding="20dp"
-            android:text="@string/height"
-            android:textColor="#C2CAD3"
+            android:ems="10"
+            android:hint="@string/height"
+            android:textColorHint="#BFCBD8"
             android:textSize="17sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:editable="false"/>
 
         <EditText
             android:id="@+id/editTxtMultiLine6"
@@ -220,40 +230,7 @@
             android:hint="@string/enter_your_height"
             android:textSize="16sp"
             android:background="@null"
-            android:textColorHint="#C2CAD3"
-            android:paddingStart="50dp"
-            tools:ignore="RtlSymmetry" />
-
-        <View
-            android:layout_width="320dp"
-            android:layout_height="1dp"
-            android:layout_marginStart="50dp"
-            android:layout_marginTop="3dp"
-            android:background="#000000" />
-
-        <EditText
-            android:id="@+id/txtcondition7"
-            android:layout_width="332dp"
-            android:layout_height="30dp"
-            android:layout_marginTop="10dp"
-            android:background="@drawable/medical_id_bg"
-            android:drawableStart="@drawable/date_svgrepo_com"
-            android:ems="10"
-            android:drawablePadding="20dp"
-            android:text="@string/date_of_birth"
-            android:textColor="#C2CAD3"
-            android:textSize="17sp"
-            android:textStyle="bold"/>
-
-        <EditText
-            android:id="@+id/editTxtMultiLine7"
-            android:layout_width="320dp"
-            android:layout_height="30dp"
-            android:ems="10"
-            android:hint="@string/dd_mm_yyyy"
-            android:textSize="16sp"
-            android:background="@null"
-            android:textColorHint="#C2CAD3"
+            android:textColorHint="#BFCBD8"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -268,15 +245,16 @@
             android:id="@+id/txtcondition8"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="13dp"
             android:background="@drawable/medical_id_bg"
             android:drawableStart="@drawable/address_location_map_svgrepo_com"
             android:ems="10"
             android:drawablePadding="20dp"
-            android:text="@string/address"
-            android:textColor="#C2CAD3"
+            android:hint="@string/address"
+            android:textColorHint="#BFCBD8"
             android:textSize="17sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:editable="false"/>
 
         <EditText
             android:id="@+id/editTxtMultiLine8"
@@ -286,7 +264,7 @@
             android:hint="@string/enter_your_address"
             android:textSize="16sp"
             android:background="@null"
-            android:textColorHint="#C2CAD3"
+            android:textColorHint="#BFCBD8"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -301,15 +279,16 @@
             android:id="@+id/txtcondition9"
             android:layout_width="332dp"
             android:layout_height="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="13dp"
             android:background="@drawable/medical_id_bg"
             android:drawableStart="@drawable/donations_svgrepo_com"
             android:ems="10"
             android:drawablePadding="20dp"
-            android:text="@string/organ_donor"
-            android:textColor="#C2CAD3"
+            android:hint="@string/organ_donor"
+            android:textColorHint="#BFCBD8"
             android:textSize="17sp"
-            android:textStyle="bold"/>
+            android:textStyle="bold"
+            android:editable="false"/>
 
         <Spinner
             android:id="@+id/spinnerOrgan"
@@ -327,14 +306,14 @@
         <Button
             android:id="@+id/button2"
             android:layout_width="185dp"
-            android:layout_height="40dp"
+            android:layout_height="45dp"
             android:layout_gravity="center"
-            android:layout_marginTop="12dp"
-            android:background="@drawable/btn_bg"
+            android:layout_marginTop="35dp"
+            android:background="@drawable/btn_bg2"
             android:text="@string/sign_up"
             android:textAllCaps="false"
-            android:textColor="#FBF9F9"
-            android:textSize="20sp"
+            android:textColor="#4D647E"
+            android:textSize="22sp"
             android:onClick="launchSignInPage"/>
     </LinearLayout>
 
