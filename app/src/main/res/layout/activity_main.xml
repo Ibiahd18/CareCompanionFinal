@@ -86,5 +86,4 @@
         app:srcCompat="@drawable/timtim_without_text" />
 
 
-
 </androidx.constraintlayout.widget.ConstraintLayout>
