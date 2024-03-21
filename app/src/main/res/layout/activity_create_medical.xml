@@ -54,10 +54,10 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:text="@string/list_your_medical_conditions"
+            android:hint="@string/list_your_medical_conditions"
             android:textSize="16sp"
             android:background="@null"
-            android:textColor="#C2CAD3"
+            android:textColorHint="#C2CAD3"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -83,11 +83,10 @@
             android:textStyle="bold"/>
 
         <Spinner
-            android:id="@+id/spinner"
+            android:id="@+id/spinnerBlood"
             android:layout_width="320dp"
             android:layout_height="30dp"
-            android:layout_marginStart="50dp"
-            android:textColor="#C2CAD3"/>
+            android:layout_marginStart="50dp"/>
 
         <View
             android:layout_width="320dp"
@@ -117,10 +116,10 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:text="@string/list_your_allergies"
+            android:hint="@string/list_your_allergies"
             android:textSize="16sp"
             android:background="@null"
-            android:textColor="#C2CAD3"
+            android:textColorHint="#C2CAD3"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -152,10 +151,10 @@
             android:ems="10"
             android:gravity="start|top"
             android:inputType="textMultiLine"
-            android:text="@string/list_any_medication_you_take"
+            android:hint="@string/list_any_medication_you_take"
             android:textSize="16sp"
             android:background="@null"
-            android:textColor="#C2CAD3"
+            android:textColorHint="#C2CAD3"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -185,12 +184,10 @@
             android:layout_width="320dp"
             android:layout_height="30dp"
             android:ems="10"
-            android:gravity="start|top"
-            android:inputType="textMultiLine"
-            android:text="@string/enter_your_weight"
+            android:hint="@string/enter_your_weight"
             android:textSize="16sp"
             android:background="@null"
-            android:textColor="#C2CAD3"
+            android:textColorHint="#C2CAD3"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -220,12 +217,10 @@
             android:layout_width="320dp"
             android:layout_height="30dp"
             android:ems="10"
-            android:gravity="start|top"
-            android:inputType="textMultiLine"
-            android:text="@string/enter_your_height"
+            android:hint="@string/enter_your_height"
             android:textSize="16sp"
             android:background="@null"
-            android:textColor="#C2CAD3"
+            android:textColorHint="#C2CAD3"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -255,12 +250,10 @@
             android:layout_width="320dp"
             android:layout_height="30dp"
             android:ems="10"
-            android:gravity="start|top"
-            android:inputType="textMultiLine"
-            android:text="@string/list_your_dob"
+            android:hint="@string/dd_mm_yyyy"
             android:textSize="16sp"
             android:background="@null"
-            android:textColor="#C2CAD3"
+            android:textColorHint="#C2CAD3"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -290,12 +283,10 @@
             android:layout_width="320dp"
             android:layout_height="30dp"
             android:ems="10"
-            android:gravity="start|top"
-            android:inputType="textMultiLine"
-            android:text="@string/enter_your_address"
+            android:hint="@string/enter_your_address"
             android:textSize="16sp"
             android:background="@null"
-            android:textColor="#C2CAD3"
+            android:textColorHint="#C2CAD3"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -320,33 +311,31 @@
             android:textSize="17sp"
             android:textStyle="bold"/>
 
-        <EditText
-            android:id="@+id/editTxtMultiLine9"
+        <Spinner
+            android:id="@+id/spinnerOrgan"
             android:layout_width="320dp"
             android:layout_height="30dp"
-            android:ems="10"
-            android:gravity="start|top"
-            android:inputType="textMultiLine"
-            android:text="@string/tap_to_set_satus"
-            android:textSize="16sp"
-            android:background="@null"
-            android:textColor="#C2CAD3"
-            android:paddingStart="50dp"
-            tools:ignore="RtlSymmetry" />
+            android:layout_marginStart="50dp"/>
+
+        <View
+            android:layout_width="320dp"
+            android:layout_height="1dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="3dp"
+            android:background="#000000" />
 
         <Button
             android:id="@+id/button2"
-            android:layout_width="180dp"
-            android:layout_height="45dp"
+            android:layout_width="185dp"
+            android:layout_height="40dp"
             android:layout_gravity="center"
             android:layout_marginTop="12dp"
             android:background="@drawable/btn_bg"
-            android:text="Sign up"
+            android:text="@string/sign_up"
             android:textAllCaps="false"
             android:textColor="#FBF9F9"
-            android:textSize="23dp"/>
-
-
+            android:textSize="20sp"
+            android:onClick="launchSignInPage"/>
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

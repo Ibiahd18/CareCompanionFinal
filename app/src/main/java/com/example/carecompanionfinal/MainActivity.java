@@ -47,6 +47,17 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this, HealthTipsActivity.class);
         startActivity(i);
     }
-
+    public void launchSignUpPage(View view){
+        Intent intent = new Intent(this, SignUpActivity.class);
+        startActivity(intent);
+    }
+    public void launchMedical(View view){
+        Intent intent = new Intent(this, Create_medical.class);
+        startActivity(intent);
+    }
+    public void launchSignInPage(View view){
+        Intent intent = new Intent(this, SignInActivity.class);
+        startActivity(intent);
+    }
 
 }

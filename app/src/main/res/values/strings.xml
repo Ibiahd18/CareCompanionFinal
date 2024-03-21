@@ -13,13 +13,22 @@
     <string name="navigation_button">Navigation</string>
     <string name="health_tips_button">Health Tips</string>
 
-    <string-array name="options_array">
+    <string-array name="blood_array">
         <item>Tap to select blood type</item>
         <item>Type A</item>
         <item>Type B</item>
         <item>Type AB</item>
         <item>Type O</item>
     </string-array>
+
+    <string-array name="organ_array">
+        <item>Tap to set status</item>
+        <item>Yes</item>
+        <item>No</item>
+        <item>Unsure</item>
+    </string-array>
+
+
 
     <string name="large_text">
         "Material is the metaphor.\n\n"
@@ -29,7 +38,7 @@
         "technologically advanced and open to imagination and magic.\n"
         "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
         "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
+        "flexibility of the material creates new affordances that supersede those in the physical "
         "world, without breaking the rules of physics.\n"
         "The fundamentals of light, surface, and movement are key to conveying how objects move, "
         "interact, and exist in space and in relation to each other. Realistic lighting shows "
@@ -105,7 +114,7 @@
         "whether on a per component basis or using the entire app layout.\n"
         "On a component level, components can move or be removed before they cause interference. "
         "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
+        "user picks up a card, or it can move if a snack bar appears.\n"
         "On the layout level, design your app layout to minimize opportunities for interference. "
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
@@ -114,20 +123,40 @@
     <string name="please_provide_your_medical_information_in_the_columns_below">Please provide your medical information in the columns below.</string>
     <string name="medical_information">Medical Information</string>
     <string name="medical_conditions">Medical conditions</string>
-    <string name="list_your_medical_conditions">List your medical conditions</string>
     <string name="blood_type">Blood type</string>
     <string name="allergies">Allergies</string>
-    <string name="list_your_allergies">List your allergies</string>
     <string name="current_medication">Current medication</string>
-    <string name="list_any_medication_you_take">List any medication you take</string>
     <string name="weight">Weight</string>
-    <string name="enter_your_weight">Enter your weight</string>
     <string name="date_of_birth">Date of birth</string>
-    <string name="list_your_dob">List your DOB</string>
     <string name="address">Address</string>
-    <string name="enter_your_address">Enter your address</string>
     <string name="organ_donor">Organ donor</string>
-    <string name="tap_to_set_satus">Tap to set satus</string>
-    <string name="enter_your_height">Enter your height</string>
     <string name="height">Height</string>
+    <string name="next">Next</string>
+    <string name="re_enter_password">Re-Enter Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="first_name">First name</string>
+    <string name="last_name">Last name</string>
+    <string name="email">Email</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="password">Password</string>
+    <string name="enter_your_password">Enter Your Password</string>
+    <string name="verify_password">Verify password</string>
+    <string name="yes_i_agree_to_the">Yes, I agree to the</string>
+    <string name="terms_conditions"><![CDATA[Terms & Conditions]]></string>
+    <string name="enter_your_first_name">Enter your first name</string>
+    <string name="enter_your_flast_name">Enter your last name</string>
+    <string name="create_an_account">Create an Account</string>
+    <string name="janedoe_gmail_com">janedoe@gmail.com</string>
+    <string name="list_your_medical_conditions">List your medical conditions</string>
+    <string name="list_your_allergies">List your allergies</string>
+    <string name="list_any_medication_you_take">List any medication you take</string>
+    <string name="enter_your_weight">Enter your weight</string>
+    <string name="dd_mm_yyyy">dd/mm/yyyy</string>
+    <string name="enter_your_height">Enter your height</string>
+    <string name="enter_your_address">Enter your address</string>
+    <string name="tap_to_set_status">Tap to set status</string>
+    <string name="forgot_password">Forgot password</string>
+    <string name="remember_me">Remember me</string>
+    <string name="log_in">Log in</string>
+    <string name="create_account">Create account</string>
 </resources>
