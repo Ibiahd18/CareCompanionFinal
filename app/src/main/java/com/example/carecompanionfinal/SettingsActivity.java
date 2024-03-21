@@ -40,5 +40,10 @@ public class SettingsActivity extends AppCompatActivity {
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
+    public void launchPrivacyPolicyPage(View v){
+        Intent i = new Intent(this, PrivacyPolicyActivity.class);
+        startActivity(i);
+    }
+
 
 }

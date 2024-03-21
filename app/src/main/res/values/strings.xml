@@ -9,44 +9,12 @@
     <string name="title_activity_health_tips">HealthTipsActivity</string>
     <string name="medical_id_button">Medical ID</string>
     <string name="calendar_button">Calendar &amp; Reminders</string>
-    <string name="settings_button">Settings</string>
+    <string name="settings_button">Settings &amp; Privacy Policy</string>
     <string name="navigation_button">Navigation</string>
     <string name="health_tips_button">Health Tips</string>
 
     <string name="large_text">
         "Material is the metaphor.\n\n"
-
-        "A material metaphor is the unifying theory of a rationalized space and a system of motion."
-        "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
-        "technologically advanced and open to imagination and magic.\n"
-        "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
-        "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
-        "flexibility of the material creates new affordances that supercede those in the physical "
-        "world, without breaking the rules of physics.\n"
-        "The fundamentals of light, surface, and movement are key to conveying how objects move, "
-        "interact, and exist in space and in relation to each other. Realistic lighting shows "
-        "seams, divides space, and indicates moving parts.\n\n"
-
-        "Bold, graphic, intentional.\n\n"
-
-        "The foundational elements of print based design typography, grids, space, scale, color, "
-        "and use of imagery guide visual treatments. These elements do far more than please the "
-        "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
-        "imagery, large scale typography, and intentional white space create a bold and graphic "
-        "interface that immerse the user in the experience.\n"
-        "An emphasis on user actions makes core functionality immediately apparent and provides "
-        "waypoints for the user.\n\n"
-
-        "Motion provides meaning.\n\n"
-
-        "Motion respects and reinforces the user as the prime mover. Primary user actions are "
-        "inflection points that initiate motion, transforming the whole design.\n"
-        "All action takes place in a single environment. Objects are presented to the user without "
-        "breaking the continuity of experience even as they transform and reorganize.\n"
-        "Motion is meaningful and appropriate, serving to focus attention and maintain continuity. "
-        "Feedback is subtle yet clear. Transitions are efﬁcient yet coherent.\n\n"
-
-        "3D world.\n\n"
 
         "The material environment is a 3D space, which means all objects have x, y, and z "
         "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
@@ -70,37 +38,143 @@
         "that does not change. If an object changes elevation, it should return to its resting "
         "elevation as soon as possible.\n\n"
 
-        "Component elevations.\n\n"
+    </string>
+    <string name="top_tips_text">
+        <b> 1. Watch what you eat and drink </b> \n\n
+It sounds obvious, but having a balanced diet is crucial for good health, energy and preventing illness. \nAn ideal diet should be low in saturated fat, with lots of fruit and vegetables, wholegrains, oily fish, and small amounts of low-fat dairy and lean meat.
+\nDon’t forget to top-up with lots of water to avoid dehydration, which can make you feel tired and confused. Tea, coffee and fruit juice will also help you to stay hydrated, but avoid sugary fizzy drinks.
+\nIf you drink alcohol, keep at least two days per week booze-free to give your liver time to recover from the toxic effects of alcohol, and don’t exceed recommended daily limits for alcohol consumption.
+\n\n
+        2. Look after your teeth \n\n
+Brush your teeth twice a day and floss daily. Floss helps to prevent gum disease by removing pieces of food and plaque from between the teeth.
+If it’s left to build up you might notice sore or bleeding gums, and gum disease can also be linked to diabetes, strokes, heart disease and rheumatoid arthritis.
+Have regular check-ups and, if you wear dentures or have a bridge, ask your dentist to check that they fit properly.
 
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
+\n\n
+3. Stay active \n\n
+Daily exercise helps you to stay strong and healthy. This will lower your risk of obesity, heart disease, stroke, diabetes, and even cancer. If that wasn’t enough, staying active can boost your self-esteem, improve your sleep, and give you more energy.
+Government guidelines recommend that older adults do 150 minutes of moderate intensity activity per week, as well as strengthening exercises twice a week.
+If that sounds like a lot, start small and as you get stronger you will be able to work up to those amounts.
+You don’t have to be moving around to benefit from exercise. Chair-based exercises, which you can do sitting or holding on to the back of a chair, are ideal for improving muscle strength and flexibility.
+If you’re physically able, but find yourself sitting in front of the computer or television for hours at a time, try to break it up and build activity into your day.
+If you have a health condition that makes moving
+about difficult or painful such as Parkinson’s, arthritis or osteoporosis, always consult your GP for help in choosing the right exercise for you.
+\n\n
+4. Make the most of your GP\n\n
+It’s a good idea to get some routine tests done at the doctors to check your blood pressure and cholesterol levels. High readings increase your risk factor for stroke and heart disease but any problems are completely reversible with medication.
+Whilst you’re there, why not ask your doctor about the seasonal flu jab? It’s free once you reach 65, or if you have a health condition that puts you at risk of more serious problems if you caught the flu.
+\n\n
+5. Get a vitamin boost\n\n
+Lots of people  have a vitamin D deficiency and don’t know it. In fact, it’s estimated that it affects half of the adult population. Vitamin D deficiency has been linked to cognitive impairment, bone problems and also cardiovascular disease.
+Once we reach the warmer spring and summer months, try to get outdoors in the sunshine for at least 15-20 minutes a day for a vitamin D boost. It can also be found in food such as eggs and oily fish. Alternatively, talk to your doctor about a vitamin D supplement.
+\n\n
+6. Take care of your feet\n\n
+Look after your feet by applying moisturiser to prevent dry skin and cutting your toenails straight across. Make sure you have footwear that fits properly and supports your feet.
+If they’re sore you may be tempted to stay in slippers, but a pair of trainers could be a good option as they are more supportive.
+Contact your GP if your feet become painful, feel very hot or cold or if you have common problems like corns, bunions or ingrown toenails.
+\n\n
+7. Sort out your sleep\n\n
+Many of us have trouble getting – or staying – asleep as we get older. This can leave you feeling tired and grumpy.
+Avoid insomnia by cutting down on daytime naps, establishing a bedtime routine and going to bed at the same time each night.
+Try a warm drink such as chamomile tea or hot milk before you go to bed.
+\n\n
+8. Take the tests\n\n
+As we age our hearing and eyesight can be affected, so it’s important to get them checked regularly. Hearing loss is common in older people so see your GP if you have to have the TV on loud or you’re having trouble tuning into conversations. If you need a hearing aid, some are available on the NHS.
+Have your eyes checked every year if you are aged 70 or over, and every two years if you are under 70. This means that changes in your vision can be corrected and any problems can be picked up before they seriously affect your sight. Eye tests are free if you are over 60.
+\n\n
+9. Stay in touch\n\n
+Spending time with other people can prevent you from feeling lonely or anxious. If you find that you are no longer able to do the things you used to do, try to develop new hobbies and interests or think about becoming a volunteer.
+Use Skype or Facetime to make video phone calls to friends and family who don’t live nearby.
+Age UK offers two different types of befriending services:
+• Face-to-face befriending: where a volunteer befriender visits an older person in their home, perhaps for a cup of tea and a chat, or accompanies them to an activity (such as a trip to a café or the theatre).
+• Telephone befriending: where a volunteer befriender will phone an older person at an agreed time for a chat.
+With both types of befriending each older person is matched with a befriender who has similar interests. They will provide friendly conversation and companionship on a regular basis over a long period of time.
+Befriending provides an older person with a link to the outside world and often acts as a gateway for other services and valuable support. These services are usually free of charge.
+\n\n
+10. Give up smoking\n\n
+We all know that smoking is bad for your body and your brain.
+It’s linked to a whole range of different health problems, including heart disease, lung cancer, and bronchitis.
+The good news is that if you stop smoking, regardless of your age, your circulation, lung capacity and energy levels will improve.
+    </string>
+    <string name="exercise_text">"Material is the metaphor.\n\n"
 
-        "Responsive elevation and dynamic elevation offsets.\n\n"
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
 
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
+        "Light and shadow.\n\n"
 
-        "Avoiding elevation interference.\n\n"
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
 
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snackbar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+    </string>
+    <string name="diet_text">
+        "Material is the metaphor.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+    </string>
+    <string name="appt_freq_text">
+        "Material is the metaphor.\n\n"
+
+        "The material environment is a 3D space, which means all objects have x, y, and z "
+        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
+        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
+        "position along the z-axis and has a standard 1dp thickness.\n"
+        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
+        "emulated by manipulating the y-axis.\n\n"
+
+        "Light and shadow.\n\n"
+
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
     </string>
     <string name="action_settings">Settings</string>
+    <string name="title_activity_privacy_policy">PrivacyPolicyActivity</string>
+    <string name="title_activity_health_tip">HealthTipActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
