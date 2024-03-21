@@ -182,7 +182,6 @@ The good news is that if you stop smoking, regardless of your age, your circulat
         "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
         "when a user tries to pick up one of cards.\n\n"
     </string>
-    <string name="action_settings">Settings</string>
     <string name="please_provide_your_medical_information_in_the_columns_below">Please provide your medical information in the columns below.</string>
     <string name="medical_information">Medical Information</string>
     <string name="medical_conditions">Medical conditions</string>
@@ -220,6 +219,8 @@ The good news is that if you stop smoking, regardless of your age, your circulat
     <string name="create_account">Create account</string>
     <string name="full_name">Full name</string>
     <string name="enter_your_name">Enter your name</string>
+
+    <string name="text">
 
         "Within the material environment, virtual lights illuminate the scene. Key lights create "
         "directional shadows, while ambient light creates soft shadows from all angles.\n"
