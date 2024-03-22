@@ -5,6 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#F2F2F2"
     tools:context=".MainActivity">
 
     <Button
@@ -77,11 +78,11 @@
         android:id="@+id/imageButton3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="16dp"
-        android:backgroundTint="#FFFFFF"
+        android:layout_marginBottom="144dp"
+        android:backgroundTint="#F2F2F2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.939"
+        app:layout_constraintHorizontal_bias="0.887"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/timtim_without_text" />
 

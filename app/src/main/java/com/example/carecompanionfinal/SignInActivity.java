@@ -23,9 +23,9 @@ public class SignInActivity extends AppCompatActivity {
             return insets;
         });
     }
-    public void launchHomepage(View v){
-        Intent i = new Intent(this, MainActivity.class);
-        startActivity(i);
+    public void launchHomepage(View view){
+        Intent intent = new Intent(this, MainActivity.class);
+        startActivity(intent);
     }
     public void launchSignUpPage(View view){
         Intent intent = new Intent(this, SignUpActivity.class);
