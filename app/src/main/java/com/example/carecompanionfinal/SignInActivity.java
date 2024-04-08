@@ -15,7 +15,7 @@ import androidx.core.view.WindowInsetsCompat;
 public class SignInActivity extends AppCompatActivity {
 
     // Set username and password
-    private static final String USERNAME = "carecompanion@gmail.com";
+    private static final String USERNAME = "carecompanion";
     private static final String PASSWORD = "Care12";
 
     private EditText usernameEditText;
