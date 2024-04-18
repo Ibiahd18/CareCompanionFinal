@@ -54,10 +54,6 @@ public class Create_medical extends AppCompatActivity {
         //Set the adapter to the spinner to populate the organ spinner
         organSpinner.setAdapter(organAdapter);
     }
-    public void launchSignInPage(View view){
-        Intent intent = new Intent(this, SignInActivity.class);
-        startActivity(intent);
-    }
 }
 
 

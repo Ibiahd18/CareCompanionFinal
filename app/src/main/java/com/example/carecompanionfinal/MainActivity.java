@@ -8,7 +8,6 @@ import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageButton;
 
-
 import androidx.activity.EdgeToEdge;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -92,10 +91,7 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, Create_medical.class);
         startActivity(intent);
     }
-    public void launchSignInPage(View view){
-        Intent intent = new Intent(this, SignInActivity.class);
-        startActivity(intent);
-    }
+
 
 
 //    @Override
