@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <shape xmlns:android="http://schemas.android.com/apk/res/android">
     <!-- curved_top_bg.xml -->
-    <corners android:topLeftRadius="180dp" android:topRightRadius="180dp"/>
-    <solid android:color="#6B859E"/>
+    <corners
+        android:topLeftRadius="180dp"
+        android:topRightRadius="180dp"/>
+    <solid
+        android:color="#6B859E"/>
 </shape>
