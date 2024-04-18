@@ -18,9 +18,6 @@
             android:name=".HomepageActivity"
             android:exported="false" />
         <activity
-            android:name=".SplashScreenActivity"
-            android:exported="false" />
-        <activity
             android:name=".Create_medical"
             android:exported="true" />
         <activity

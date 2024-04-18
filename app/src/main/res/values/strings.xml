@@ -273,6 +273,7 @@ The good news is that if you stop smoking, regardless of your age, your circulat
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hi_please_login">Hi, Please Login</string>
     <string name="register">Are you a new user? Register</string>
+    <string name="medical_id">Medical Id</string>
 
 
 </resources>
