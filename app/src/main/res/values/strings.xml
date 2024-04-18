@@ -173,8 +173,8 @@ Being very overweight puts us at risk of heart disease, stroke, diabetes and som
         "All material objects, regardless of size, have a resting elevation, or default elevation "
         "that does not change. If an object changes elevation, it should return to its resting "
         "elevation as soon as possible.\n\n"
+    </string>
 
-<!--    </string>-->
     <string name="appt_freq_text">
         Refer to text below when in doubt of who should be your first point of contact\n\n
         •• ━━━━━ •••• ━━━━━━━━ ••●•• ━━━━━━━━ •••• ━━━━━ ••
@@ -194,12 +194,6 @@ Being very overweight puts us at risk of heart disease, stroke, diabetes and som
         \n\nAfter you reach 60 years of age, you should book a hearing test every year to aid early detection of hearing loss and prevent further damage.
 
     </string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_privacy_policy">PrivacyPolicyActivity</string>
-    <string name="title_activity_health_tip">HealthTipActivity</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="appointment_frequency_title">Appointment Frequency</string>
 
     <string name="exercise_text">
@@ -325,7 +319,8 @@ Being very overweight puts us at risk of heart disease, stroke, diabetes and som
     <string name="hi_please_login">Hi, Please Login</string>
     <string name="register">Are you a new user? Register</string>
     <string name="medical_id">Medical Id</string>
-
+    <string name="back_button" />
+    <string name="diet_title" />
 
 
 </resources>
