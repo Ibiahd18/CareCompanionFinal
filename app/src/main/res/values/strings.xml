@@ -25,9 +25,7 @@
         <item>Tap to set status</item>
         <item>Yes</item>
         <item>No</item>
-        <item>Unsure</item>
     </string-array>
-
 
     <string name="top_tips_text">
         •• ━━━━━ •••• ━━━━━━━━ ••●•• ━━━━━━━━ •••• ━━━━━ ••\n\n
@@ -151,13 +149,18 @@ Being very overweight puts us at risk of heart disease, stroke, diabetes and som
     <string name="enter_your_height">Enter your height</string>
     <string name="enter_your_address">Enter your address</string>
     <string name="tap_to_set_status">Tap to set status</string>
-    <string name="forgot_password">Forgot password</string>
+    <string name="forgot_password">Forgot Password</string>
     <string name="remember_me">Remember me</string>
     <string name="log_in">Log in</string>
     <string name="create_account">Create account</string>
     <string name="full_name">Full name</string>
     <string name="enter_your_name">Enter your name</string>
-<string name="text">
+    <string name="nav_open">Open</string>
+    <string name="nav_close">Close</string>
+
+
+
+    <string name="text">
         "Within the material environment, virtual lights illuminate the scene. Key lights create "
         "directional shadows, while ambient light creates soft shadows from all angles.\n"
         "Shadows in the material environment are cast by these two light sources. In Android "
@@ -170,6 +173,7 @@ Being very overweight puts us at risk of heart disease, stroke, diabetes and som
         "All material objects, regardless of size, have a resting elevation, or default elevation "
         "that does not change. If an object changes elevation, it should return to its resting "
         "elevation as soon as possible.\n\n"
+
 <!--    </string>-->
     <string name="appt_freq_text">
         Refer to text below when in doubt of who should be your first point of contact\n\n
@@ -195,7 +199,6 @@ Being very overweight puts us at risk of heart disease, stroke, diabetes and som
     <string name="title_activity_health_tip">HealthTipActivity</string>
     <string name="tab_text_1">Tab 1</string>
     <string name="tab_text_2">Tab 2</string>
-
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="appointment_frequency_title">Appointment Frequency</string>
 
@@ -313,8 +316,16 @@ Being very overweight puts us at risk of heart disease, stroke, diabetes and som
         "y-axis only. The following example shows the card with a height of 6dp.\n\n"
 
     </string>
-    <string name="back_button">Back Button</string>
-    <string name="diet_title">Diet</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_privacy_policy">PrivacyPolicyActivity</string>
+    <string name="title_activity_health_tip">HealthTipActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="hi_please_login">Hi, Please Login</string>
+    <string name="register">Are you a new user? Register</string>
+    <string name="medical_id">Medical Id</string>
+
 
 
 </resources>

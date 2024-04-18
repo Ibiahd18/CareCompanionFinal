@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="navigationButton" type="id" />
+    <item name="settingsButton" type="id" />
+    <item name="medicalIdButton" type="id" />
+    <item name="calendarButton" type="id" />
+    <item name="healthTipsButton" type="id" />
+    <item name="imageButton3" type="id" />
+    <item name="nav_view" type="id" />
+    <item name="toolbar3" type="id" />
+    <item name="imageView" type="id" />
+    <item name="textView2" type="id" />
+</resources>

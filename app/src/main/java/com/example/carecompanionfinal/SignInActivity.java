@@ -62,10 +62,11 @@ public class SignInActivity extends AppCompatActivity {
         return username.equals(USERNAME) && password.equals(PASSWORD);
     }
 
-    private void launchHomepage() {
+    public  void launchHomepage() {
         Intent intent = new Intent(this, MainActivity.class);
         startActivity(intent);
         finish();
+
     }
 
     public void launchSignUpPage(View view) {
