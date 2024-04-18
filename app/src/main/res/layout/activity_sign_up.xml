@@ -194,7 +194,7 @@
 
 
         <Button
-            android:id="@+id/button2"
+            android:id="@+id/btnLogin"
             android:layout_width="140dp"
             android:layout_height="45dp"
             android:layout_gravity="end"
