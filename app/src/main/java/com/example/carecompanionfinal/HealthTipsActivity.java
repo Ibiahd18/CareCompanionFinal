@@ -16,7 +16,6 @@ public class HealthTipsActivity extends AppCompatActivity {
     MyViewPagerAdapter myViewPagerAdapter;
 
 
-
     @Override
     protected void onCreate(Bundle savedInstanceState){
         super.onCreate(savedInstanceState);

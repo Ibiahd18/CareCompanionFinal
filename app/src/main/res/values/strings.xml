@@ -29,160 +29,97 @@
     </string-array>
 
 
-
-    <string name="large_text">
-        "Material is the metaphor.\n\n"
-
-
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
-
-        "Light and shadow.\n\n"
-
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-
-    </string>
     <string name="top_tips_text">
-        <b> 1. Watch what you eat and drink </b> \n\n
-It sounds obvious, but having a balanced diet is crucial for good health, energy and preventing illness. \nAn ideal diet should be low in saturated fat, with lots of fruit and vegetables, wholegrains, oily fish, and small amounts of low-fat dairy and lean meat.
-\nDon’t forget to top-up with lots of water to avoid dehydration, which can make you feel tired and confused. Tea, coffee and fruit juice will also help you to stay hydrated, but avoid sugary fizzy drinks.
-\nIf you drink alcohol, keep at least two days per week booze-free to give your liver time to recover from the toxic effects of alcohol, and don’t exceed recommended daily limits for alcohol consumption.
-\n\n
-        2. Look after your teeth \n\n
-Brush your teeth twice a day and floss daily. Floss helps to prevent gum disease by removing pieces of food and plaque from between the teeth.
-If it’s left to build up you might notice sore or bleeding gums, and gum disease can also be linked to diabetes, strokes, heart disease and rheumatoid arthritis.
-Have regular check-ups and, if you wear dentures or have a bridge, ask your dentist to check that they fit properly.
+        •• ━━━━━ •••• ━━━━━━━━ ••●•• ━━━━━━━━ •••• ━━━━━ ••\n\n
 
+        \n\n<font size="+16"><b><u>1. Watch what you eat and drink</u></b></font> \n\n
+It sounds obvious, but having a balanced diet is crucial for good health, energy and preventing illness. \n\n
+ • An ideal diet should be low in saturated fat, with lots of fruit and vegetables, wholegrains, oily fish, and small amounts of low-fat dairy and lean meat. \n\n
+• Don’t forget to top-up with lots of water to avoid dehydration, which can make you feel tired and confused.\n\n• Tea, coffee and fruit juice will also help you to stay hydrated, but avoid sugary fizzy drinks. \n
+\n• If you drink alcohol, keep at least two days per week booze-free to give your liver time to recover from the toxic effects of alcohol, and don’t exceed recommended daily limits for alcohol consumption. \n\n
+
+        <font size="+16"><b><u>2. Look after your teeth</u></b></font> \n\n
+• Brush your teeth twice a day and floss daily. \n\n• Floss helps to prevent gum disease by removing pieces of food and plaque from between the teeth. \n\n
+• If it’s left to build up you might notice sore or bleeding gums, and gum disease can also be linked to diabetes, strokes, heart disease and rheumatoid arthritis. \n\n
+• Have regular check-ups and, if you wear dentures or have a bridge, ask your dentist to check that they fit properly. \n\n
+
+        <font size="+16"><b><u>3. Stay active</u></b></font> \n\n
+• Daily exercise helps you to stay strong and healthy. This will lower your risk of obesity, heart disease, stroke, diabetes, and even cancer. \n\n• If that wasn’t enough, staying active can boost your self-esteem, improve your sleep, and give you more energy. \n\n
+• Government guidelines recommend that older adults do 150 minutes of moderate intensity activity per week, as well as strengthening exercises twice a week. \n\n
+• If that sounds like a lot, start small and as you get stronger you will be able to work up to those amounts. \n\n
+• You don’t have to be moving around to benefit from exercise. \n\n • Chair-based exercises, which you can do sitting or holding on to the back of a chair, are ideal for improving muscle strength and flexibility. \n
+\n• If you’re physically able, but find yourself sitting in front of the computer or television for hours at a time, try to break it up and build activity into your day. \n
+\n • If you have a health condition that makes moving about difficult or painful such as Parkinson’s, arthritis or osteoporosis, always consult your GP for help in choosing the right exercise for you. \n\n
+
+        <font size="+16"><b><u>4. Make the most of your GP</u></b></font> \n\n
+It’s a good idea to get some routine tests done at the doctors to check your blood pressure and cholesterol levels. \n\n• High readings increase your risk factor for stroke and heart disease but any problems are completely reversible with medication.
+\n\n• Whilst you’re there, why not ask your doctor about the seasonal flu jab? \nIt’s free once you reach 65, or if you have a health condition that puts you at risk of more serious problems if you caught the flu. \n\n
+
+        <font size="+16"><b><u>5. Get a vitamin boost</u></b></font> \n\n
+• Lots of people have a vitamin D deficiency and don’t know it. In fact, it’s estimated that it affects half of the adult population. \n\n• Vitamin D deficiency has been linked to cognitive impairment, bone problems and also cardiovascular disease. \n\n
+• Once we reach the warmer spring and summer months, try to get outdoors in the sunshine for at least 15-20 minutes a day for a vitamin D boost. \n\n• It can also be found in food such as eggs and oily fish. \n\n• Alternatively, talk to your doctor about a vitamin D supplement. \n\n
+
+        <font size="+16"><b><u>6. Take care of your feet</u></b></font> \n\n
+• Look after your feet by applying moisturiser to prevent dry skin and cutting your toenails straight across. \n\n• Make sure you have footwear that fits properly and supports your feet. \n
+\n • If they’re sore you may be tempted to stay in slippers, but a pair of trainers could be a good option as they are more supportive. \n\n
+• Contact your GP if your feet become painful, feel very hot or cold or if you have common problems like corns, bunions or ingrown toenails. \n\n
+
+        <font size="+16"><b><u>7. Sort out your sleep</u></b></font> \n\n
+Many of us have trouble getting – or staying – asleep as we get older. This can leave you feeling tired and grumpy. \n
+\n• Avoid insomnia by cutting down on daytime naps, establishing a bedtime routine and going to bed at the same time each night. \n
+\n• Try a warm drink such as chamomile tea or hot milk before you go to bed. \n\n
+
+        <font size="+16"><b><u>8. Take the tests</u></b></font> \n\n
+As we age our hearing and eyesight can be affected, so it’s important to get them checked regularly. \n\n • Hearing loss is common in older people so see your GP if you have to have the TV on loud or you’re having trouble tuning into conversations. \n\n• If you need a hearing aid, some are available on the NHS. \n
+\n • Have your eyes checked every year if you are aged 70 or over, and every two years if you are under 70. \n\n• This means that changes in your vision can be corrected and any problems can be picked up before they seriously affect your sight. \n\n• Eye tests are free if you are over 60. \n\n
+
+        <font size="+16"><b><u>9. Stay in touch</u></b></font> \n\n
+• Spending time with other people can prevent you from feeling lonely or anxious. \n\n• If you find that you are no longer able to do the things you used to do, try to develop new hobbies and interests or think about becoming a volunteer. \n
+\n• Use Skype or Facetime to make video phone calls to friends and family who don’t live nearby. \n
+\nAge UK offers two different types of befriending services: \n
+\n1. Face-to-face befriending: \nwhere a volunteer befriender visits an older person in their home, perhaps for a cup of tea and a chat, or accompanies them to an activity (such as a trip to a café or the theatre). \n
+\n2. Telephone befriending: \nwhere a volunteer befriender will phone an older person at an agreed time for a chat. \n
+With both types of befriending each older person is matched with a befriender who has similar interests. \nThey will provide friendly conversation and companionship on a regular basis over a long period of time. \n
+\nBefriending provides an older person with a link to the outside world and often acts as a gateway for other services and valuable support. \n\nThese services are usually free of charge
 \n\n
-3. Stay active \n\n
-Daily exercise helps you to stay strong and healthy. This will lower your risk of obesity, heart disease, stroke, diabetes, and even cancer. If that wasn’t enough, staying active can boost your self-esteem, improve your sleep, and give you more energy.
-Government guidelines recommend that older adults do 150 minutes of moderate intensity activity per week, as well as strengthening exercises twice a week.
-If that sounds like a lot, start small and as you get stronger you will be able to work up to those amounts.
-You don’t have to be moving around to benefit from exercise. Chair-based exercises, which you can do sitting or holding on to the back of a chair, are ideal for improving muscle strength and flexibility.
-If you’re physically able, but find yourself sitting in front of the computer or television for hours at a time, try to break it up and build activity into your day.
-If you have a health condition that makes moving
-about difficult or painful such as Parkinson’s, arthritis or osteoporosis, always consult your GP for help in choosing the right exercise for you.
-\n\n
-4. Make the most of your GP\n\n
-It’s a good idea to get some routine tests done at the doctors to check your blood pressure and cholesterol levels. High readings increase your risk factor for stroke and heart disease but any problems are completely reversible with medication.
-Whilst you’re there, why not ask your doctor about the seasonal flu jab? It’s free once you reach 65, or if you have a health condition that puts you at risk of more serious problems if you caught the flu.
-\n\n
-5. Get a vitamin boost\n\n
-Lots of people  have a vitamin D deficiency and don’t know it. In fact, it’s estimated that it affects half of the adult population. Vitamin D deficiency has been linked to cognitive impairment, bone problems and also cardiovascular disease.
-Once we reach the warmer spring and summer months, try to get outdoors in the sunshine for at least 15-20 minutes a day for a vitamin D boost. It can also be found in food such as eggs and oily fish. Alternatively, talk to your doctor about a vitamin D supplement.
-\n\n
-6. Take care of your feet\n\n
-Look after your feet by applying moisturiser to prevent dry skin and cutting your toenails straight across. Make sure you have footwear that fits properly and supports your feet.
-If they’re sore you may be tempted to stay in slippers, but a pair of trainers could be a good option as they are more supportive.
-Contact your GP if your feet become painful, feel very hot or cold or if you have common problems like corns, bunions or ingrown toenails.
-\n\n
-7. Sort out your sleep\n\n
-Many of us have trouble getting – or staying – asleep as we get older. This can leave you feeling tired and grumpy.
-Avoid insomnia by cutting down on daytime naps, establishing a bedtime routine and going to bed at the same time each night.
-Try a warm drink such as chamomile tea or hot milk before you go to bed.
-\n\n
-8. Take the tests\n\n
-As we age our hearing and eyesight can be affected, so it’s important to get them checked regularly. Hearing loss is common in older people so see your GP if you have to have the TV on loud or you’re having trouble tuning into conversations. If you need a hearing aid, some are available on the NHS.
-Have your eyes checked every year if you are aged 70 or over, and every two years if you are under 70. This means that changes in your vision can be corrected and any problems can be picked up before they seriously affect your sight. Eye tests are free if you are over 60.
-\n\n
-9. Stay in touch\n\n
-Spending time with other people can prevent you from feeling lonely or anxious. If you find that you are no longer able to do the things you used to do, try to develop new hobbies and interests or think about becoming a volunteer.
-Use Skype or Facetime to make video phone calls to friends and family who don’t live nearby.
-Age UK offers two different types of befriending services:
-• Face-to-face befriending: where a volunteer befriender visits an older person in their home, perhaps for a cup of tea and a chat, or accompanies them to an activity (such as a trip to a café or the theatre).
-• Telephone befriending: where a volunteer befriender will phone an older person at an agreed time for a chat.
-With both types of befriending each older person is matched with a befriender who has similar interests. They will provide friendly conversation and companionship on a regular basis over a long period of time.
-Befriending provides an older person with a link to the outside world and often acts as a gateway for other services and valuable support. These services are usually free of charge.
-\n\n
-10. Give up smoking\n\n
-We all know that smoking is bad for your body and your brain.
-It’s linked to a whole range of different health problems, including heart disease, lung cancer, and bronchitis.
-The good news is that if you stop smoking, regardless of your age, your circulation, lung capacity and energy levels will improve.
+        <font size="+16"><b><u>10. Give up smoking</u></b></font> \n\n
+• We all know that smoking is bad for your body and your brain.
+        \n\n• It’s linked to a whole range of different health problems, including heart disease, lung cancer, and bronchitis.
+        \n\n• The good news is that if you stop smoking, regardless of your age, your circulation, lung capacity and energy levels will improve.
     </string>
-    <string name="exercise_text">"Material is the metaphor.\n\n"
 
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
 
-        "Light and shadow.\n\n"
-
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
-
-        "Resting elevation.\n\n"
-
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-    </string>
     <string name="diet_text">
-        "Material is the metaphor.\n\n"
+        •• ━━━━━ •••• ━━━━━━━━ ••●•• ━━━━━━━━ •••• ━━━━━ ••\n\n
+<font size="+16"><b>How much fluid should I be drinking every day?</b></font> \n\n
 
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
+Often forgotten about, fluids are just as important as the other food groups. Water is vital for our bodies to work properly so it’s important to drink plenty. Not drinking enough can cause constipation, dehydration, and increase your risk of a fall.\n\n
+Aim for 6-8 glasses of fluid every day. This doesn’t have to be water – milk, soups, tea and coffee all count. Alcohol is best avoided.\n\n
+Certain medical problems can affect the amount of water you drink. If you have heart failure, you may need to restrict the amount of fluid each day. If you have urinary incontinence, you may be drinking less to avoid going to the toilet often but it’s important to drink enough. If you have a long-term condition, talk to your doctor about how much fluid you should drink every day.
+\n\n
+        <font size="+16"><b>How do I keep a healthy weight?</b></font> \n\n
+Keeping to a healthy weight is important. There are health risks with being overweight or underweight. It’s easy for weight to creep up or drop off without us noticing. \n\nNext time you’re at your doctors surgery ask them to check that your weight is within a healthy range.
+\n\n<font size="+16"><b>Poor appetite and weight loss</b></font> \n\n
+If you’re finding it difficult to eat enough, you might find yourself feeling tired, depressed and low on energy. This is because you’re lacking essential vitamins and minerals. \n\nIt can also lead to unwanted weight loss.
+If you only feel like eating a little, it’s important that the food you do eat is nourishing. Keeping a food diary listing what you eat over a few days may be helpful.
+        \n\nHere are some tips you might try:
 
-        "Light and shadow.\n\n"
+        \n\n1. Eat <b>six small meals and snacks every day</b>, rather than 3 main meals.
+\n\n 2. <b>Snack</b> on yoghurt, cheese and crackers, toast with a savoury topping, a milky drink, a fruit smoothie, or breakfast cereal with milk, rather than biscuits and sweets.
+\n\n3. If you have problems chewing and wear dentures or have a bridge, <b>ask your dentist</b> to check that they fit properly.
+\n\n4. While any dental problems are being corrected, try <b>easy-to-eat foods</b> such as minced meat, casseroles, mashed potato, canned fruit and cooked vegetables.
+\n\n5. <b>Keep a store of food</b> for when you want a quick meal or snack, such as cans of soup or frozen meals.
+        \n\n6. If you’re finding it difficult to shop or cook for yourself, consider <b>getting help</b>. \nTalk to your local adult social services department and explain any problems you’re having with day-to-day tasks. \nThere may also be a local meal delivery service in your area like Meals on Wheels.
+\n\nKeeping active will help improve your appetite. Try going for a short walk every day or find another activity you enjoy that keeps you on the move. \n\nIf you find this difficult, ask your doctor for advice about activities suitable for your level of mobility and fitness.
+\n\n<font size="+16"><b>Trying to lose weight</b></font> \n\n
+Being very overweight puts us at risk of heart disease, stroke, diabetes and some cancers, including bowel cancer and breast cancer.
+\n\nLosing weight isn’t easy. If you’ve gradually gained weight over the years, try to lose it slowly but steadily rather than crash dieting.
+\n\nTry keeping a food diary for a week. Write down everything you eat each day then check through to see where you might cut down or change your habits, for example by switching to healthier snacks.
 
-        "Component elevations.\n\n"
-
-        "The resting elevation for a component type is consistent across apps (e.g., FAB elevation "
-        "does not vary from 6dp in one app to 16dp in another app).\n"
-        "Components may have different resting elevations across platforms, depending on the depth "
-        "of the environment (e.g., TV has a greater depth than mobile or desktop).\n\n"
-
-        "Responsive elevation and dynamic elevation offsets.\n\n"
-
-        "Some component types have responsive elevation, meaning they change elevation in response "
-        "to user input (e.g., normal, focused, and pressed) or system events. These elevation "
-        "changes are consistently implemented using dynamic elevation offsets.\n"
-        "Dynamic elevation offsets are the goal elevation that a component moves towards, relative "
-        "to the component’s resting state. They ensure that elevation changes are consistent "
-        "across actions and component types. For example, all components that lift on press have "
-        "the same elevation change relative to their resting elevation.\n"
-        "Once the input event is completed or cancelled, the component will return to its resting "
-        "elevation.\n\n"
-
-        "Avoiding elevation interference.\n\n"
-
-        "Components with responsive elevations may encounter other components as they move between "
-        "their resting elevations and dynamic elevation offsets. Because material cannot pass "
-        "through other material, components avoid interfering with one another any number of ways, "
-        "whether on a per component basis or using the entire app layout.\n"
-        "On a component level, components can move or be removed before they cause interference. "
-        "For example, a floating action button (FAB) can disappear or move off screen before a "
-        "user picks up a card, or it can move if a snack bar appears.\n"
-        "On the layout level, design your app layout to minimize opportunities for interference. "
-        "For example, position the FAB to one side of stream of a cards so the FAB won’t interfere "
-        "when a user tries to pick up one of cards.\n\n"
     </string>
+
 <!--    <string name="action_settings">Settings</string>-->
+
     <string name="please_provide_your_medical_information_in_the_columns_below">Please provide your medical information in the columns below.</string>
     <string name="medical_information">Medical Information</string>
     <string name="medical_conditions">Medical conditions</string>
@@ -220,7 +157,7 @@ The good news is that if you stop smoking, regardless of your age, your circulat
     <string name="create_account">Create account</string>
     <string name="full_name">Full name</string>
     <string name="enter_your_name">Enter your name</string>
-
+<string name="text">
         "Within the material environment, virtual lights illuminate the scene. Key lights create "
         "directional shadows, while ambient light creates soft shadows from all angles.\n"
         "Shadows in the material environment are cast by these two light sources. In Android "
@@ -235,17 +172,103 @@ The good news is that if you stop smoking, regardless of your age, your circulat
         "elevation as soon as possible.\n\n"
 <!--    </string>-->
     <string name="appt_freq_text">
-        "Material is the metaphor.\n\n"
+        Refer to text below when in doubt of who should be your first point of contact\n\n
+        •• ━━━━━ •••• ━━━━━━━━ ••●•• ━━━━━━━━ •••• ━━━━━ ••
+\n\n<font size="+16"><b><u>GP</u></b></font> \n\n
+        For health issues that cannot be solved with simple over the counter medicine and require slightly more specialist advice.
+        \n\nThe government have recently implemented measures to equip pharmacists with more responsibility and jurisdiction when prescribing medicine to the public.
+        \n\nIn cases where more serious help is required, a pharmacist will refer you to the doctor themselves or you can ring your local GP to book an appointment and the receptionist should decide whether you receive an on-the-day appointment or one scheduled in the near future.
+\n\n<font size="+16"><b><u>Dentist</u></b></font> \n\n
+        Depending on your oral health:\n
+        \n• If you have no existing issues you should book an appointment every 12-14 months
+        \n\n• If you do have any problems you should be scheduled in every 3-6 months for regular cleanings.
+\n\n<font size="+16"><b><u>Optometrist</u></b></font> \n\n
+        You should have regular eye tests every 2 years if your prescription is stable
+        \n\nIf you are experiencing faster changes in prescription levels you should have more frequent eye tests as your optometrist advises.
+\n\n <font size="+16"><b><u>Audiologist</u></b></font> \n\n
+        If you experience earache/sudden hearing loss you should visit a GP first.
+        \n\nAfter you reach 60 years of age, you should book a hearing test every year to aid early detection of hearing loss and prevent further damage.
 
-        "The material environment is a 3D space, which means all objects have x, y, and z "
-        "dimensions. The z-axis is perpendicularly aligned to the plane of the display, with the "
-        "positive z-axis extending towards the viewer. Every sheet of material occupies a single "
-        "position along the z-axis and has a standard 1dp thickness.\n"
-        "On the web, the z-axis is used for layering and not for perspective. The 3D world is "
-        "emulated by manipulating the y-axis.\n\n"
+    </string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_privacy_policy">PrivacyPolicyActivity</string>
+    <string name="title_activity_health_tip">HealthTipActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
 
-        "Light and shadow.\n\n"
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="appointment_frequency_title">Appointment Frequency</string>
 
+    <string name="exercise_text">
+    •• ━━━━━ •••• ━━━━━━━━ ••●•• ━━━━━━━━ •••• ━━━━━ ••\n\n
+    Older adults should do some type of physical activity every day.\n\nIt can help to improve your health and reduce the risk of heart disease and stroke.\n\n
+    <font size="+16"><b><u>What counts as light activity?</u></b></font>\n\n
+    Light activity is moving rather than sitting or lying down.\n\n
+    <font size="+14"><b>Examples of light activity include:</b></font>\n
+    • getting up to make a cup of tea\n
+    • moving around your home\n
+    • walking at a slow pace\n
+    • cleaning and dusting\n
+    • vacuuming\n
+    • making the bed\n
+    • standing up\n\n
+    <font size="+16"><b><u>What counts as moderate intensity activity?</u></b></font>\n\n
+    Moderate intensity activity will raise your heart rate, and make you breathe faster and feel warmer.\n\n
+    One way to tell if you are working at a moderate intensity level is if you can still talk, but not sing.\n\n
+    <font size="+14"><b>Examples of moderate intensity activities include:</b></font>\n
+    • walking for health\n
+    • water aerobics\n
+    • riding a bike\n
+    • dance for fitness\n
+    • doubles tennis\n
+    • pushing a lawn mower\n
+    • hiking\n\n
+    Try our Fitness Studio exercise videos – link version\n\n
+    <font size="+16"><b><u>What counts as vigorous intensity activity?</u></b></font>\n\n
+    Vigorous intensity activity makes you breathe hard and fast.\n\n
+    If you are working at this level, you will not be able to say more than a few words without pausing for breath.\n\n
+    In general, 75 minutes of vigorous intensity activity can give similar health benefits to 150 minutes of moderate intensity activity.\n\n
+    Most moderate intensity activities can become vigorous if you increase your effort.\n\n
+    <font size="+14"><b>Examples of vigorous activities include:</b></font>\n
+    • running\n
+    • aerobics\n
+    • swimming\n
+    • riding a bike fast or on hills\n
+    • singles tennis\n
+    • football\n
+    • hiking uphill\n
+    • dance for fitness\n
+    • martial arts\n\n
+    Try our Fitness Studio exercise videos. – link version\n\n
+    <font size="+16"><b><u>What activities strengthen muscles?</u></b></font>\n\n
+    To get health benefits from strength exercises, you should do them to the point where you need a short rest before repeating the activity.\n\n
+    There are many ways you can strengthen your muscles, whether you are at home or in a gym.\n\n
+    <font size="+14"><b>Examples of muscle-strengthening activities include:</b></font>\n
+    • carrying heavy shopping bags\n
+    • yoga\n
+    • pilates\n
+    • tai chi\n
+    • lifting weights\n
+    • working with resistance bands\n
+    • doing exercises that use your own body weight, such as push-ups and sit-ups\n
+    • heavy gardening, such as digging and shovelling\n\n
+    <font size="+14"><b>Try exercise routines, including:</b></font>\n
+    • strength and flexibility exercises\n
+    • sitting exercises\n
+    • strength exercises\n
+    • flexibility exercises\n
+    • balance exercises\n\n
+    LINKS\n
+    • strength and flexibility exercises\n
+    • sitting exercises\n
+    • strength exercises\n
+    • flexibility exercises\n
+    • balance exercises\n\n
+    You can do activities that strengthen your muscles on the same or different days as your aerobic activity – whatever is best for you.\n\n
+    Muscle-strengthening exercises are not always an aerobic activity, so you will need to do them in addition to your 150 minutes of aerobic activity.\n\n
+</string>
+    <string name="privacy_policy_title">Privacy Policy\n</string>
+    <string name="privacy_policy_text">
         "Within the material environment, virtual lights illuminate the scene. Key lights create "
         "directional shadows, while ambient light creates soft shadows from all angles.\n"
         "Shadows in the material environment are cast by these two light sources. In Android "
@@ -258,13 +281,40 @@ The good news is that if you stop smoking, regardless of your age, your circulat
         "All material objects, regardless of size, have a resting elevation, or default elevation "
         "that does not change. If an object changes elevation, it should return to its resting "
         "elevation as soon as possible.\n\n"
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
+        "Resting elevation.\n\n"
+
+        "All material objects, regardless of size, have a resting elevation, or default elevation "
+        "that does not change. If an object changes elevation, it should return to its resting "
+        "elevation as soon as possible.\n\n"
+        "Within the material environment, virtual lights illuminate the scene. Key lights create "
+        "directional shadows, while ambient light creates soft shadows from all angles.\n"
+        "Shadows in the material environment are cast by these two light sources. In Android "
+        "development, shadows occur when light sources are blocked by sheets of material at "
+        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
+        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+
     </string>
-    <string name="action_settings">Settings</string>
-    <string name="title_activity_privacy_policy">PrivacyPolicyActivity</string>
-    <string name="title_activity_health_tip">HealthTipActivity</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="back_button">Back Button</string>
+    <string name="diet_title">Diet</string>
+
 
 </resources>
