@@ -2,24 +2,11 @@ package com.example.carecompanionfinal;
 
 import android.content.Intent;
 import android.os.Bundle;
-
-import com.example.carecompanionfinal.healthTipFragments.ApptFreqFragment;
-import com.example.carecompanionfinal.healthTipFragments.DietFragment;
-import com.example.carecompanionfinal.healthTipFragments.ExerciseFragment;
-import com.example.carecompanionfinal.healthTipFragments.TopTipsFragment;
-import com.google.android.material.appbar.CollapsingToolbarLayout;
-import com.google.android.material.floatingactionbutton.FloatingActionButton;
-import com.google.android.material.snackbar.Snackbar;
-
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.appcompat.widget.Toolbar;
-import androidx.fragment.app.FragmentPagerAdapter;
-import androidx.viewpager.widget.ViewPager;
-import androidx.viewpager2.widget.ViewPager2;
-
 import android.view.View;
 
-import com.example.carecompanionfinal.databinding.ActivityHealthTipsBinding;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.viewpager2.widget.ViewPager2;
+
 import com.google.android.material.tabs.TabLayout;
 
 public class HealthTipsActivity extends AppCompatActivity {
@@ -27,7 +14,6 @@ public class HealthTipsActivity extends AppCompatActivity {
     TabLayout tabLayout;
     ViewPager2 viewPager2;
     MyViewPagerAdapter myViewPagerAdapter;
-
 
 
     @Override
