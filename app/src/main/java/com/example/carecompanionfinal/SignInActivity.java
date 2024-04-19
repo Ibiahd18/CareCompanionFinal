@@ -35,7 +35,7 @@ public class SignInActivity extends AppCompatActivity {
         passwordEditText = findViewById(R.id.txtPassword);
 
         // Set login on button click
-        findViewById(R.id.btnLogin).setOnClickListener(new View.OnClickListener() {
+        findViewById(R.id.button2).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 signIn(v); // Call the signIn method when the button is clicked

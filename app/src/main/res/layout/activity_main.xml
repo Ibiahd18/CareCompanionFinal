@@ -139,7 +139,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:onClick="launchSettingsPage"
+                android:onClick="launchHealthTipsPage"
                 app:cardElevation="2dp">
 
                 <RelativeLayout
@@ -275,7 +275,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:onClick="launchHealthTipsPage"
+                android:onClick="launchSettingsPage"
                 app:cardElevation="2dp">
 
                 <RelativeLayout
