@@ -173,8 +173,8 @@ Being very overweight puts us at risk of heart disease, stroke, diabetes and som
         "All material objects, regardless of size, have a resting elevation, or default elevation "
         "that does not change. If an object changes elevation, it should return to its resting "
         "elevation as soon as possible.\n\n"
-    </string>
 
+ </string>
     <string name="appt_freq_text">
         Refer to text below when in doubt of who should be your first point of contact\n\n
         •• ━━━━━ •••• ━━━━━━━━ ••●•• ━━━━━━━━ •••• ━━━━━ ••
@@ -319,8 +319,8 @@ Being very overweight puts us at risk of heart disease, stroke, diabetes and som
     <string name="hi_please_login">Hi, Please Login</string>
     <string name="register">Are you a new user? Register</string>
     <string name="medical_id">Medical Id</string>
-    <string name="back_button" />
     <string name="diet_title" />
+    <string name="back_button" />
 
 
 </resources>
