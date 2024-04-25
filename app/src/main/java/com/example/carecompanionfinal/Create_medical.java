@@ -59,10 +59,6 @@ public class Create_medical extends AppCompatActivity {
         Intent intent = new Intent(this, SignInActivity.class);
         startActivity(intent);
     }
-    public void launchSignInPage(View view) {
-        Intent intent = new Intent(this, SignInActivity.class);
-        startActivity(intent);
-    }
 }
 
 
