@@ -30,25 +30,25 @@
             android:id="@+id/topTipsTab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Top Tips" />
+            android:text="@string/top_tips" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/exerciseTab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Exercise" />
+            android:text="@string/exercise" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/dietTab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Diet" />
+            android:text="@string/diet" />
 
         <com.google.android.material.tabs.TabItem
             android:id="@+id/apptFreqTab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Appt Freq" />
+            android:text="@string/appt_freq" />
     </com.google.android.material.tabs.TabLayout>
 
     <androidx.viewpager2.widget.ViewPager2

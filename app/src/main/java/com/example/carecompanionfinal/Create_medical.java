@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
+import android.widget.PopupMenu;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -54,7 +56,7 @@ public class Create_medical extends AppCompatActivity {
         //Set the adapter to the spinner to populate the organ spinner
         organSpinner.setAdapter(organAdapter);
     }
-}
+    }
 
 
 
