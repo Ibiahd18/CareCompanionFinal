@@ -8,10 +8,10 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="blue">#FF5D8CAC</color>
-    <color name="dark_blue">#536c88</color>
-    <color name="colorPrimary">#49BEFF</color>
-    <color name="colorPrimaryDark">#65DCE5</color>
-    <color name="colorAccent">#0D5D98</color>
+    <color name="dark_blue">#4a5d73</color>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#4885ed</color>
 
     <color name="address">#2F7092</color>
     <color name="followers">#0D5D98</color>
@@ -23,6 +23,7 @@
     <color name="followersBg">#65DCE5</color>
     <color name="followingBg">#49BEFF</color>
     <color name="grey">#E5E5E5</color>
+
 
 
 </resources>

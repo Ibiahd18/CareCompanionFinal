@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_marginBottom="40dp"
         android:onClick="launchPrivacyPolicyPage"
-        android:text="Privacy Policy"
+        android:text="@string/privacy_policy"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.123"
@@ -29,14 +29,15 @@
         app:layout_constraintHorizontal_bias="0.523"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.366" />
+        app:layout_constraintVertical_bias="0.366"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="52dp"
-        android:text="Bold text"
+        android:text="@string/bold_text"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/switch2"
         app:layout_constraintHorizontal_bias="0.0"
@@ -100,14 +101,15 @@
         app:layout_constraintHorizontal_bias="0.526"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.446" />
+        app:layout_constraintVertical_bias="0.446"
+        tools:ignore="UseSwitchCompatOrMaterialXml" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/floatingActionButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:clickable="true"
-        android:contentDescription="Information"
+        android:contentDescription="@string/information"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.901"
@@ -120,7 +122,7 @@
         android:id="@+id/textView5"
         android:layout_width="129dp"
         android:layout_height="41dp"
-        android:text="Settings"
+        android:text="@string/settings"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"

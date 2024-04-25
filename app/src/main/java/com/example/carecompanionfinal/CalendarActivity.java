@@ -27,4 +27,8 @@ public class CalendarActivity extends AppCompatActivity {
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }
+    public void launchReminder(View view){
+        Intent intent = new Intent(this, ReminderActivity.class);
+        startActivity(intent);
+    }
 }
