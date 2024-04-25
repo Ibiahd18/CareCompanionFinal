@@ -166,7 +166,8 @@ Being very overweight puts us at risk of heart disease, stroke, diabetes and som
         "Shadows in the material environment are cast by these two light sources. In Android "
         "development, shadows occur when light sources are blocked by sheets of material at "
         "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+        "y-axis only
+    . The following example shows the card with a height of 6dp.\n\n"
 
         "Resting elevation.\n\n"
 
@@ -174,7 +175,8 @@ Being very overweight puts us at risk of heart disease, stroke, diabetes and som
         "that does not change. If an object changes elevation, it should return to its resting "
         "elevation as soon as possible.\n\n"
 
- </string>
+</string>
+
     <string name="appt_freq_text">
         Refer to text below when in doubt of who should be your first point of contact\n\n
         •• ━━━━━ •••• ━━━━━━━━ ••●•• ━━━━━━━━ •••• ━━━━━ ••
@@ -266,50 +268,72 @@ Being very overweight puts us at risk of heart disease, stroke, diabetes and som
 </string>
     <string name="privacy_policy_title">Privacy Policy\n</string>
     <string name="privacy_policy_text">
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+        <font size="+16"><b><u>Information We Collect</u></b></font>\n
+        <i>We collect two types of information through our app:</i>\n\n
+        • <b>Personal Information:</b>This includes information that can be used to identify you directly, such as your name, email address, and phone number (optional) and personal medical information.\n\n
+        • <b>Health Information:</b> This includes information about your health and wellness, such as your weight, blood pressure, medications, activity data etc.\n\n
 
-        "Resting elevation.\n\n"
+        <font size="+16"><b><u>Use of Information</u></b></font>\n
 
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+        <i>We use the information we collect to:</i>\n\n
+• Provide and improve our app and services.\n
+• track your health and wellness progress.\n
+• send you important information about the app, including updates, security alerts, and support messages.\n
+• comply with legal and regulatory requirements.\n
+        \n
+We will never sell your personal or health information to third parties.\n\n
 
-        "Resting elevation.\n\n"
+        <font size="+16"><b><u>Sharing of Information</u></b></font>\n
 
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+We may share your information with third-party service providers who help us operate the app, such as data storage providers and analytics providers. \n
+        These third parties are contractually obligated to protect your information and only use it for the purposes we have specified.\n\n
 
-        "Resting elevation.\n\n"
+We may also disclose your information if required to do so by law or in the good faith belief that such disclosure is necessary to protect our rights, protect your safety or the safety of others, investigate fraud or other wrongdoing, or comply with a court order or other legal process.\n\n
 
-        "All material objects, regardless of size, have a resting elevation, or default elevation "
-        "that does not change. If an object changes elevation, it should return to its resting "
-        "elevation as soon as possible.\n\n"
-        "Within the material environment, virtual lights illuminate the scene. Key lights create "
-        "directional shadows, while ambient light creates soft shadows from all angles.\n"
-        "Shadows in the material environment are cast by these two light sources. In Android "
-        "development, shadows occur when light sources are blocked by sheets of material at "
-        "various positions along the z-axis. On the web, shadows are depicted by manipulating the "
-        "y-axis only. The following example shows the card with a height of 6dp.\n\n"
+        <font size="+16"><b><u>Your Choices</u></b></font>\n
 
+        <i>You have choices about the information you share with us. You can:</i>\n\n
+
+• Access and update your personal information through the app settings.\n
+• Withdraw your consent for us to collect or use your health information at any time.\n
+• Delete your account and all associated data by contacting us at carecompanionhelp@gmail.com .\n
+\n
+        <font size="+16"><b><u>Data Security</u></b></font>\n
+
+We take reasonable steps to protect your information from unauthorized access, disclosure, alteration, or destruction. \n
+        \nHowever, no internet or electronic storage system is 100% secure. We cannot guarantee the security of your information as per GDPR or Data Protection act \n\n
+
+        <font size="+16"><b><u>Changes to Privacy Policy</u></b></font>\n
+
+We may update this Privacy Policy from time to time. \n
+        We will notify you of any changes by posting the new Privacy Policy on the app\n
     </string>
+
+    <string name="back_button">Back Button</string>
+    <string name="diet_title">Diet</string>
+    <string name="medical_id_profile_text">Medical ID Profile</string>
+    <string name="top_tips">Top Tips</string>
+    <string name="exercise">Exercise</string>
+    <string name="diet">Diet</string>
+    <string name="appt_freq">Appt Freq</string>
+    <string name="_999_emergency">999</string>
+    <string name="huddersfield_england">Huddersfield, England</string>
+    <string name="jane_doe">Jane Doe</string>
+    <string name="uk_emergency_contact">UK Emergency Contact</string>
+    <string name="_44_1234567890">+44 1234567890</string>
+    <string name="my_emergency_contact">My Emergency Contact</string>
+    <string name="dob_amp_age"><![CDATA[DOB & Age]]></string>
+    <string name="_24_03_2004_19_years_old">24/03/2004 - 19 years old</string>
+    <string name="med_conditions">Medical Conditions</string>
+    <string name="diabetes_hypoglycaemia">Diabetes (Hypoglycaemia)</string>
+    <string name="medication">Medication</string>
+    <string name="reaction_profile">Yellow injector pen in front pocket. Administer in right thigh.</string>
+    <string name="height_and_weight"><![CDATA[162cm & 54kg]]></string>
+    <string name="weight_amp_height"><![CDATA[Weight&& Height]]></string>
+    <string name="jane_blood_type">AB+</string>
+    <string name="blood_type_jane">Blood Type</string>
+    <string name="allergies_amp_reactions"><![CDATA[Allergies & Reactions]]></string>
+    <string name="penicillin_severe_skin_rash">Penicillin (severe skin rash)</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_privacy_policy">PrivacyPolicyActivity</string>
     <string name="title_activity_health_tip">HealthTipActivity</string>

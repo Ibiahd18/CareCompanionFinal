@@ -19,10 +19,26 @@
         app:srcCompat="?attr/actionModeCloseDrawable"
         android:contentDescription="@string/back_button" />
 
+    <!--    <ScrollView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginTop="110dp"-->
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_marginLeft="16dp"-->
+<!--            android:layout_marginRight="16dp"-->
+<!--            android:layout_marginBottom="16dp"-->
+<!--            android:text="@string/privacy_policy_text"-->
+<!--             />-->
+<!--    </ScrollView>-->
+
     <ScrollView
-        android:layout_marginTop="50dp"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:layout_marginTop="50dp">
 
         <TextView
             android:layout_width="wrap_content"
@@ -32,22 +48,21 @@
             android:text="@string/privacy_policy_title"
             android:textSize="25sp" />
 
-    </ScrollView>
 
+    </ScrollView>
     <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="110dp"
-        >
-
-        <TextView
-            android:layout_width="match_parent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.google.android.material.chip.Chip
+            android:layout_width="111dp"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="16dp"
-            android:layout_marginRight="16dp"
-            android:layout_marginBottom="16dp"
-            android:text="@string/privacy_policy_text"
-             />
+
+            android:onClick="launchSettingsPage"
+            android:text="Accept?" />
+
     </ScrollView>
+
+
+
 
 </RelativeLayout>
