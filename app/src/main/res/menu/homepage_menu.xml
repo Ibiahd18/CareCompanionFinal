@@ -6,11 +6,11 @@
             <group android:checkableBehavior="single">
                 <item
                     android:id="@+id/nav_profile"
-                    android:icon="@drawable/lock"
+                    android:icon="@drawable/profile"
                     android:title="Profile" />
                 <item
                     android:id="@+id/nav_settings"
-                    android:icon="@drawable/lock"
+                    android:icon="@drawable/settings"
                     android:title="Settings" />
             </group>
         </menu>
@@ -23,19 +23,19 @@
             android:title="Home" />
         <item
             android:id="@+id/nav_map"
-            android:icon="@drawable/lock"
+            android:icon="@drawable/navigation"
             android:title="Navigation" />
         <item
             android:id="@+id/nav_medicalid"
-            android:icon="@drawable/lock"
+            android:icon="@drawable/medicalid"
             android:title="@string/medical_id" />
         <item
             android:id="@+id/nav_calendar"
-            android:icon="@drawable/lock"
+            android:icon="@drawable/calendar"
             android:title="Calendar" />
         <item
             android:id="@+id/nav_healthtips"
-            android:icon="@drawable/lock"
+            android:icon="@drawable/healthtips"
             android:title="Health Tips" />
     </group>
 
@@ -43,7 +43,7 @@
         <menu>
             <item
                 android:id="@+id/nav_feedback"
-                android:icon="@drawable/lock"
+                android:icon="@drawable/communicate"
                 android:title="Feedback" />
         </menu>
     </item>
