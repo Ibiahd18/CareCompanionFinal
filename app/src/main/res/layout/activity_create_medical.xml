@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/dark_blue"
+    android:background="#BEC9D3"
     tools:context=".Create_medical">
 
 
@@ -18,11 +18,12 @@
 
         <ImageButton
             android:id="@+id/backButton"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
+            android:layout_width="45dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
             android:onClick="launchSignUpPage"
-            app:srcCompat="?attr/actionModeCloseDrawable" />
+            app:srcCompat="?attr/actionModeCloseDrawable"
+            android:background="#BEC9D3"/>
 
         <TextView
             android:id="@+id/textView6"
@@ -33,7 +34,7 @@
             android:textSize="25sp"
             android:layout_marginTop="15dp"
             android:layout_marginStart="20dp"
-            android:textColor="#C8D7E8"/>
+            android:textColor="@color/dark_blue"/>
 
         <TextView
             android:id="@+id/textView7"
@@ -42,7 +43,7 @@
             android:paddingTop="6dp"
             android:layout_marginStart="20dp"
             android:text="@string/please_provide_your_medical_information_in_the_columns_below"
-            android:textColor="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:textSize="16sp"
             tools:ignore="RtlSymmetry" />
 
@@ -56,7 +57,7 @@
             android:ems="10"
             android:drawablePadding="20dp"
             android:hint="@string/medical_conditions"
-            android:textColorHint="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:textSize="17sp"
             android:textStyle="bold"
             android:editable="false"/>
@@ -71,7 +72,7 @@
             android:hint="@string/list_your_medical_conditions"
             android:textSize="16sp"
             android:background="@null"
-            android:textColorHint="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -92,7 +93,7 @@
             android:ems="10"
             android:drawablePadding="20dp"
             android:hint="@string/blood_type"
-            android:textColorHint="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:textSize="17sp"
             android:textStyle="bold"
             android:editable="false"/>
@@ -120,7 +121,7 @@
             android:ems="10"
             android:drawablePadding="20dp"
             android:hint="@string/allergies"
-            android:textColorHint="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:textSize="17sp"
             android:textStyle="bold"
             android:editable="false"/>
@@ -135,7 +136,7 @@
             android:hint="@string/list_your_allergies"
             android:textSize="16sp"
             android:background="@null"
-            android:textColorHint="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -156,7 +157,7 @@
             android:ems="10"
             android:drawablePadding="20dp"
             android:hint="@string/current_medication"
-            android:textColorHint="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:textSize="17sp"
             android:textStyle="bold"
             android:editable="false"/>
@@ -171,7 +172,7 @@
             android:hint="@string/list_any_medication_you_take"
             android:textSize="16sp"
             android:background="@null"
-            android:textColorHint="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -192,7 +193,7 @@
             android:drawablePadding="20dp"
             android:ems="10"
             android:hint="@string/weight"
-            android:textColorHint="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:textSize="17sp"
             android:textStyle="bold"
             android:editable="false"/>
@@ -205,7 +206,7 @@
             android:hint="@string/enter_your_weight"
             android:textSize="16sp"
             android:background="@null"
-            android:textColorHint="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -226,7 +227,7 @@
             android:drawablePadding="20dp"
             android:ems="10"
             android:hint="@string/height"
-            android:textColorHint="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:textSize="17sp"
             android:textStyle="bold"
             android:editable="false"/>
@@ -239,7 +240,7 @@
             android:hint="@string/enter_your_height"
             android:textSize="16sp"
             android:background="@null"
-            android:textColorHint="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -260,7 +261,7 @@
             android:ems="10"
             android:drawablePadding="20dp"
             android:hint="@string/address"
-            android:textColorHint="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:textSize="17sp"
             android:textStyle="bold"
             android:editable="false"/>
@@ -273,7 +274,7 @@
             android:hint="@string/enter_your_address"
             android:textSize="16sp"
             android:background="@null"
-            android:textColorHint="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:paddingStart="50dp"
             tools:ignore="RtlSymmetry" />
 
@@ -294,7 +295,7 @@
             android:ems="10"
             android:drawablePadding="20dp"
             android:hint="@string/organ_donor"
-            android:textColorHint="#C8D7E8"
+            android:textColor="@color/dark_blue"
             android:textSize="17sp"
             android:textStyle="bold"
             android:editable="false"/>
@@ -318,10 +319,10 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:layout_marginTop="45dp"
-            android:background="@drawable/btn_bg2"
+            android:background="@drawable/btn_bg"
             android:text="@string/sign_up"
             android:textAllCaps="false"
-            android:textColor="#4D647E"
+            android:textColor="#BEC9D3"
             android:textSize="22sp"
             android:onClick="launchSignInPage"/>
     </LinearLayout>

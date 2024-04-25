@@ -15,7 +15,10 @@
         android:theme="@style/Theme.CareCompanionFinal"
         tools:targetApi="31">
         <activity
-            android:name=".HomepageActivity"
+            android:name=".ReminderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity_reminder"
             android:exported="false" />
         <activity
             android:name=".Create_medical"

@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F2F2F2"
+    tools:context=".ReminderActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/new_reminder"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp">
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:background="#B9C0C6"
+                android:onClick="launchCalendarPage"
+                android:outlineProvider="none"
+                android:text="Cancel"
+                android:textAllCaps="false"
+                android:textColor="@color/dark_blue"
+                android:textSize="22sp" />
+
+            <TextView
+                android:id="@+id/txtView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="45dp"
+                android:layout_toStartOf="@+id/button2"
+                android:layout_toEndOf="@+id/button"
+                android:background="#B9C0C6"
+                android:text="@string/add_reminder"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/button2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="#B9C0C6"
+                android:onClick="launchCalendarPage"
+                android:outlineProvider="none"
+                android:text="Add"
+                android:textAllCaps="false"
+                android:textColor="@color/dark_blue"
+                android:textSize="22sp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="260dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="25dp"
+            android:background="@drawable/reminders"
+            android:orientation="vertical"
+            android:paddingTop="5dp">
+
+            <EditText
+                android:id="@+id/editTxt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:ems="10"
+                android:hint="Title"
+                android:textColorHint="#989A9C"
+                android:paddingStart="15dp"
+                android:paddingTop="20dp"
+                android:textColor="@color/black"
+                android:textSize="20sp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:background="#989A9C" />
+
+            <EditText
+                android:id="@+id/editTxtMultiLine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:ems="10"
+                android:gravity="start|top"
+                android:hint="@string/notes"
+                android:inputType="textMultiLine"
+                android:paddingStart="17dp"
+                android:paddingTop="10dp"
+                android:textColorHint="#989A9C"
+                android:textSize="20sp"
+                tools:ignore="RtlSymmetry" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:background="#B9C0C6"
+            android:paddingBottom="8dp"
+            android:text="@string/details"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/edittxt2"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_margin="20dp"
+            android:background="@drawable/reminders"
+            android:drawableLeft="@drawable/baseline_calendar_month_24"
+            android:drawablePadding="10dp"
+            android:hint="@string/date"
+            android:paddingStart="17dp"
+            android:textSize="20sp"
+            tools:ignore="RtlSymmetry"/>
+
+        <EditText
+            android:id="@+id/edittxt3"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/reminders"
+            android:drawableLeft="@drawable/clock_svgrepo_com__2_"
+            android:drawablePadding="10dp"
+            android:hint="@string/time"
+            android:paddingStart="17dp"
+            android:textSize="20sp"
+            tools:ignore="RtlSymmetry"/>
+
+        <EditText
+            android:id="@+id/edittxt4"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/reminders"
+            android:drawableLeft="@drawable/repeat_svgrepo_com"
+            android:drawableRight="@drawable/baseline_arrow_forward_ios_24"
+            android:hint="  Repeat                                    Never"
+            android:paddingStart="17dp"
+            android:paddingEnd="17dp"
+            android:textSize="21sp"
+            tools:ignore="RtlSymmetry"/>
+
+        <EditText
+            android:id="@+id/edittxt5"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/reminders"
+            android:drawableLeft="@drawable/high_priority_svgrepo_com"
+            android:drawablePadding="10dp"
+            android:hint="Priority                                      None"
+            android:drawableRight="@drawable/arrow_down_up_svgrepo_com"
+            android:paddingStart="17dp"
+            android:paddingEnd="17dp"
+            android:textSize="20sp"
+            tools:ignore="RtlSymmetry"/>
+
+        <EditText
+            android:id="@+id/edittxt6"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/reminders"
+            android:drawableLeft="@drawable/location_fill_svgrepo_com"
+            android:drawablePadding="10dp"
+            android:hint="Location"
+            android:paddingStart="17dp"
+            android:textSize="20sp"
+            tools:ignore="RtlSymmetry"/>
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
