@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<selector xmlns:android="http://schemas.android.com/apk/res/android">
-    android:icon="@drawable/timtimface"
-    android:layout_width="850dp"
-    android:layout_height="850dp"
-    android:gravity="center_horizontal"
-</selector>

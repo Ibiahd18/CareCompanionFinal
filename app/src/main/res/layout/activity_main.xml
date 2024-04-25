@@ -63,15 +63,15 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/toolbar3" />
 
-        <!--        <ImageView-->
-        <!--            android:id="@+id/imageView"-->
-        <!--            android:layout_width="150dp"-->
-        <!--            android:layout_height="146dp"-->
-        <!--            android:layout_marginStart="66dp"-->
-        <!--            app:layout_constraintEnd_toEndOf="parent"-->
-        <!--            app:layout_constraintStart_toEndOf="@+id/textView"-->
-        <!--            app:layout_constraintTop_toBottomOf="@+id/toolbar3"-->
-        <!--            app:srcCompat="@drawable/img" />-->
+<!--                <ImageView-->
+<!--                    android:id="@+id/imageView"-->
+<!--                    android:layout_width="150dp"-->
+<!--                    android:layout_height="146dp"-->
+<!--                    android:layout_marginStart="66dp"-->
+<!--                    app:layout_constraintEnd_toEndOf="parent"-->
+<!--                    app:layout_constraintStart_toEndOf="@+id/textView"-->
+<!--                    app:layout_constraintTop_toBottomOf="@+id/toolbar3"-->
+<!--                    app:srcCompat="@drawable/img" />-->
 
         <TextView
             android:id="@+id/textView2"
@@ -129,7 +129,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        tools:srcCompat="@drawable/navigation" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -139,7 +139,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:onClick="launchHealthTipsPage"
+                android:onClick="launchSettingsPage"
                 app:cardElevation="2dp">
 
                 <RelativeLayout
@@ -164,7 +164,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        tools:srcCompat="@drawable/healthtips" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -213,7 +213,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        tools:srcCompat="@drawable/medicalid" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -248,7 +248,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        tools:srcCompat="@drawable/calendar" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -275,7 +275,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:onClick="launchSettingsPage"
+                android:onClick="launchHealthTipsPage"
                 app:cardElevation="2dp">
 
                 <RelativeLayout
@@ -300,7 +300,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        tools:srcCompat="@drawable/settings" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -334,7 +334,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        tools:srcCompat="@tools:sample/avatars" />
+                        tools:srcCompat="@drawable/img" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
