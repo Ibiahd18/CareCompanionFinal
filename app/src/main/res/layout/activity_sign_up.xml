@@ -10,202 +10,151 @@
     tools:context=".MainActivity">
 
 
-    <ImageView
-        android:id="@+id/imgView1"
-        android:layout_width="450dp"
-        android:layout_height="900dp"
-        android:scaleType="fitStart"
-        app:srcCompat="@drawable/signin_design4"
-        tools:ignore="MissingConstraints" />
-
-    <TextView
-        android:id="@+id/txtView2"
-        android:layout_width="188dp"
-        android:layout_height="89dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="32dp"
-        android:text="@string/create_an_account"
-        android:textColor="@color/white"
-        android:textSize="32sp"
-        android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <LinearLayout
-        android:layout_width="406dp"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginTop="60dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.703">
-
-        <TextView
-            android:id="@+id/txtView6"
-            android:layout_width="wrap_content"
+        <LinearLayout
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="60dp"
-            android:text="@string/full_name"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
 
-        <EditText
-            android:id="@+id/txtFirstName"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="9dp"
-            android:background="@drawable/edittext_bg"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="@string/enter_your_name"
-            android:padding="12dp"
-            android:textColor="#707070"
-            android:textSize="15sp" />
-
-        <TextView
-            android:id="@+id/txtView10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/date_of_birth"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/txtLastName"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="9dp"
-            android:background="@drawable/edittext_bg"
-            android:ems="10"
-            android:inputType="textPersonName"
-            android:hint="@string/dd_mm_yyyy"
-            android:padding="12dp"
-            android:textColor="#707070"
-            android:textSize="15sp"
-            android:drawableRight="@drawable/baseline_calendar_month_24"/>
-
-        <TextView
-            android:id="@+id/txtView7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/email"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/txtEmailAddress"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="9dp"
-            android:background="@drawable/edittext_bg"
-            android:ems="10"
-            android:hint="@string/janedoe_gmail_com"
-            android:inputType="textEmailAddress"
-            android:padding="12dp"
-            android:textColor="#707070"
-            android:textSize="15sp" />
-
-        <TextView
-            android:id="@+id/txtView8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/password"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/txtPassword"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="9dp"
-            android:background="@drawable/edittext_bg"
-            android:ems="10"
-            android:hint="@string/enter_your_password"
-            android:inputType="textPassword"
-            android:padding="12dp"
-            android:textColor="#707070"
-            android:textSize="15sp" />
-
-        <TextView
-            android:id="@+id/txtView9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="20dp"
-            android:text="@string/verify_password"
-            android:textColor="@color/black"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <EditText
-            android:id="@+id/txtRepassword"
-            android:layout_width="300dp"
-            android:layout_height="50dp"
-            android:layout_marginStart="40dp"
-            android:layout_marginTop="9dp"
-            android:background="@drawable/edittext_bg"
-            android:ems="10"
-            android:hint="@string/re_enter_password"
-            android:inputType="textPassword"
-            android:padding="12dp"
-            android:textColor="#707070"
-            android:textSize="15sp" />
-
-        <RelativeLayout
-            android:layout_width="270dp"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="22dp"
-            android:layout_marginTop="15dp">
-
-            <RadioButton
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerVertical="true"
-                android:alpha="0.7"
-                android:text="@string/yes_i_agree_to_the"/>
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="378dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/top_background2" />
 
             <TextView
-                android:id="@+id/txtTerms"
-                android:layout_width="wrap_content"
+                android:id="@+id/txtView2"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_centerVertical="true"
-                android:text="@string/terms_conditions"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="20dp"
+                android:text="@string/create_an_account"
                 android:textColor="@color/dark_blue"
-                android:textSize="14sp" />
-        </RelativeLayout>
+                android:textSize="32sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/txtName"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginTop="25dp"
+                android:background="@drawable/edittext_bg"
+                android:hint="@string/enter_your_name"
+                android:inputType="textPersonName"
+                android:textSize="15sp"
+                android:padding="12dp"
+                android:textColor="#707070"/>
+
+            <EditText
+                android:id="@+id/txtDOB"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:ems="10"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittext_bg"
+                android:hint="@string/dd_mm_yyyy"
+                android:textSize="15sp"
+                android:textColor="#707070"
+                android:padding="12dp"
+                android:drawableLeft="@drawable/baseline_calendar_month_24"
+                android:drawablePadding="10dp"/>
 
 
-        <Button
-            android:id="@+id/btnLogin"
-            android:layout_width="140dp"
-            android:layout_height="45dp"
-            android:layout_gravity="end"
-            android:layout_marginTop="25dp"
-            android:layout_marginEnd="15dp"
-            android:background="@drawable/btn_bg"
-            android:text="@string/next"
-            android:textAllCaps="false"
-            android:textColor="#FBF9F9"
-            android:textSize="22sp"
-            android:onClick="launchMedical"/>
 
-    </LinearLayout>
+            <EditText
+                android:id="@+id/txtEmailAddress"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittext_bg"
+                android:ems="10"
+                android:hint="@string/janedoe_gmail_com"
+                android:inputType="textEmailAddress"
+                android:padding="12dp"
+                android:textColor="#707070"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittext_bg"
+                android:ems="10"
+                android:hint="@string/enter_your_password"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:textColor="#707070"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/txtRepassword"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginStart="40dp"
+                android:layout_marginEnd="45dp"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/edittext_bg"
+                android:ems="10"
+                android:hint="@string/re_enter_password"
+                android:inputType="textPassword"
+                android:padding="12dp"
+                android:textColor="#707070"
+                android:textSize="15sp" />
+
+            <RelativeLayout
+                android:layout_width="270dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="22dp"
+                android:layout_marginTop="20dp">
+
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:alpha="0.7"
+                    android:text="@string/yes_i_agree_to_the"/>
+
+                <TextView
+                    android:id="@+id/txtTerms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:text="@string/terms_conditions"
+                    android:textColor="@color/dark_blue"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_gravity="end"
+                android:layout_marginTop="15dp"
+                android:layout_marginEnd="30dp"
+                android:background="@drawable/btn_arrow"
+                android:onClick="launchMedical"/>
+<!--                android:text="@string/next"-->
+<!--                android:textAllCaps="false"-->
+<!--                android:textColor="#FBF9F9"-->
+<!--                android:textSize="22sp"-->
+
+
+            <View
+                android:layout_width="wrap_content"
+                android:layout_height="100dp"/>
+
+        </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
+

@@ -10,9 +10,12 @@ tools:context=".MedicalIDActivity">
 <RelativeLayout
     android:id="@+id/rellay1"
     android:layout_width="match_parent"
+
     android:layout_height="wrap_content"
     android:background="#D351B7E6"
-    android:paddingBottom="20dp">
+    android:paddingBottom="20dp"
+    tools:context=".MedicalIDActivity">
+
 
     <ImageButton
         android:id="@+id/backButton"
