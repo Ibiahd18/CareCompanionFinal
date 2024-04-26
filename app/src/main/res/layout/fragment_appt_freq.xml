@@ -17,7 +17,6 @@
             android:layout_marginTop="8dp"
             android:text="@string/appointment_frequency_title"
             android:textSize="25sp" />
-
     </ScrollView>
 
     <ScrollView
@@ -28,8 +27,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/appt_freq_text"
-            />
+            android:text="@string/appt_freq_text" />
 
     </ScrollView>
 </RelativeLayout>
