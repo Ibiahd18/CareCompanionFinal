@@ -48,11 +48,6 @@
             android:text="@string/privacy_policy_title"
             android:textSize="25sp" />
 
-
     </ScrollView>
-
-
-
-
 
 </RelativeLayout>
