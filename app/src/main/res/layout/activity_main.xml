@@ -9,13 +9,13 @@
     tools:context=".MainActivity"
     tools:openDrawer="start">
 
-<!--    <com.google.android.material.navigation.NavigationView-->
-<!--        android:id="@+id/nav_view"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="match_parent"-->
-<!--        app:headerLayout="@layout/header"-->
-<!--        app:menu="@menu/homepage_menu"-->
-<!--        android:layout_gravity="start"/>-->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/nav_view"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        app:headerLayout="@layout/header"
+        app:menu="@menu/homepage_menu"
+        android:layout_gravity="start"/>
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -119,7 +119,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        tools:srcCompat="@drawable/navigation" />
+                        android:background="@drawable/navigation"/>
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -129,7 +129,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:onClick="launchSettingsPage"
+                android:onClick="launchHealthTipsPage"
                 app:cardElevation="2dp">
 
                 <RelativeLayout
@@ -154,7 +154,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        tools:srcCompat="@drawable/healthtips" />
+                        android:background="@drawable/healthtips" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -203,7 +203,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        tools:srcCompat="@drawable/medicalid" />
+                        android:background="@drawable/medicalid" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -238,7 +238,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        tools:srcCompat="@drawable/calendar" />
+                        android:background="@drawable/calendar" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -265,7 +265,7 @@
                 android:layout_height="match_parent"
                 android:layout_margin="10dp"
                 android:layout_weight="1"
-                android:onClick="launchHealthTipsPage"
+                android:onClick="launchSettingsPage"
                 app:cardElevation="2dp">
 
                 <RelativeLayout
@@ -290,7 +290,7 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        tools:srcCompat="@drawable/settings" />
+                        android:background="@drawable/settings" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
@@ -324,12 +324,11 @@
                         android:layout_height="75dp"
                         android:layout_centerHorizontal="true"
                         android:layout_marginTop="15dp"
-                        tools:srcCompat="@drawable/img" />
+                        android:background="@drawable/img" />
 
                 </RelativeLayout>
             </androidx.cardview.widget.CardView>
 
         </LinearLayout>
-
     </androidx.constraintlayout.widget.ConstraintLayout>
 </androidx.drawerlayout.widget.DrawerLayout>

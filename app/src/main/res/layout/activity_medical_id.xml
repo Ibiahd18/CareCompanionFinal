@@ -1,424 +1,382 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-xmlns:app="http://schemas.android.com/apk/res-auto"
-xmlns:tools="http://schemas.android.com/tools"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-tools:context=".MedicalIDActivity">
-
-
-<RelativeLayout
-    android:id="@+id/rellay1"
-    android:layout_width="match_parent"
-
-    android:layout_height="wrap_content"
-    android:background="#D351B7E6"
-    android:paddingBottom="20dp"
-    tools:context=".MedicalIDActivity">
-
-
-    <ImageButton
-        android:id="@+id/backButton"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="8dp"
-        android:onClick="launchHomepage"
-        app:srcCompat="?attr/actionModeCloseDrawable"
-        android:contentDescription="@string/back_button" />
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#BEC9D3">
 
     <RelativeLayout
-        android:id="@+id/imgUser"
-        android:layout_width="wrap_content"
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="20dp"
-        android:background="@drawable/circle_border">
+        android:background="#F2F2F2"
+        tools:ignore="MissingConstraints">
+
+        <ImageButton
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="15dp"
+            android:background="#F2F2F2"
+            android:onClick="launchHomepage"
+            app:srcCompat="?attr/actionModeCloseDrawable" />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="15dp"
+            android:paddingEnd="20dp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/med_settings"
+            android:background="#F2F2F2"
+            android:onClick="launchSettingsPage"/>
 
         <ImageView
+            android:id="@+id/profile"
             android:layout_width="107dp"
             android:layout_height="94dp"
-            android:layout_marginStart="9dp"
-            android:layout_marginLeft="9dp"
-            android:layout_marginTop="9dp"
-            android:layout_marginEnd="9dp"
-            android:layout_marginRight="9dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
             android:layout_marginBottom="9dp"
             android:adjustViewBounds="true"
-            android:background="@drawable/circle"
+            android:background="@drawable/circle_border"
             android:padding="3dp"
             android:scaleType="centerInside"
-            android:src="@drawable/timtim_without_text" />
+            android:src="@drawable/profile_circle_svgrepo_com__1_" />
 
-    </RelativeLayout>
-
-    <TextView
-        android:id="@+id/tv_name"
-        android:layout_width="wrap_content"
-        android:layout_height="31dp"
-        android:layout_below="@+id/imgUser"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="10sp"
-        android:fontFamily="sans-serif-light"
-        android:text="@string/jane_doe"
-        android:textColor="@color/white"
-        android:textSize="28sp" />
-
-
-    <TextView
-        android:id="@+id/tv_address"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/tv_name"
-        android:layout_centerHorizontal="true"
-        android:fontFamily="sans-serif"
-        android:text="@string/huddersfield_england"
-        android:textAllCaps="true"
-        android:textColor="@color/colorAccent"
-        android:textSize="14sp" />
-
-    <ImageView
-        android:layout_width="40dp"
-        android:layout_height="40dp"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="15dp"
-        android:layout_marginTop="15dp"
-        android:adjustViewBounds="true"
-        android:scaleType="centerInside"
-        android:onClick="launchSettingsPage"
-        app:srcCompat="@drawable/med_settings" />
-
-</RelativeLayout>
-
-<LinearLayout
-    android:id="@+id/linlay1"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:layout_below="@id/rellay1"
-    android:orientation="horizontal"
-    android:baselineAligned="false">
-
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_weight="1"
-        android:background="#E41468A6"
-        android:gravity="center"
-        android:paddingBottom="5dp"
-        android:paddingTop="5dp">
-
-        <LinearLayout
+        <TextView
+            android:id="@+id/tv_name"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:orientation="vertical">
+            android:layout_below="@+id/profile"
+            android:layout_alignBaseline="@+id/profile"
+            android:layout_centerHorizontal="true"
+            android:text="@string/jane_doe"
+            android:textColor="@color/dark_blue"
+            android:textSize="26sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
+        <TextView
+            android:id="@+id/tv_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_name"
+            android:layout_centerHorizontal="true"
+            android:text="@string/huddersfield_england"
+            android:textAllCaps="true"
+            android:textColor="@color/dark_blue"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/linlay1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_address"
+            android:layout_marginTop="20dp"
+            android:orientation="horizontal">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:text="@string/_999_emergency"
-                android:textColor="@color/white"
-                android:textSize="22sp" />
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/dark_blue"
+                android:gravity="center"
+                android:paddingTop="6dp"
+                android:paddingBottom="5dp">
 
-            <TextView
-                android:layout_width="wrap_content"
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/uk_emergency_contact"
+                        android:textAllCaps="true"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_999_emergency"
+                        android:textColor="@color/white"
+                        android:textSize="19sp" />
+                </LinearLayout>
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:text="@string/uk_emergency_contact"
-                android:textAllCaps="true"
-                android:textColor="@color/white"
-                android:textSize="13sp" />
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/dark_blue"
+                android:gravity="center_horizontal"
+                android:orientation="vertical"
+                android:paddingTop="6dp"
+                android:paddingBottom="5dp">
 
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/my_emergency_contact"
+                        android:textAllCaps="true"
+                        android:textColor="#F2F2F2"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="07234156766"
+                        android:textColor="#F2F2F2"
+                        android:textSize="19sp" />
+                </LinearLayout>
+            </RelativeLayout>
         </LinearLayout>
 
     </RelativeLayout>
 
-    <RelativeLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_weight="1"
-        android:background="#E41468A6"
-        android:gravity="center"
-        android:paddingBottom="5dp"
-        android:paddingTop="5dp">
-
-        <LinearLayout
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:orientation="vertical"
-            tools:ignore="UselessParent">
-
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:text="@string/_44_1234567890"
-                android:textColor="@color/white"
-                android:textSize="22sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:text="@string/my_emergency_contact"
-
-                android:textAllCaps="true"
-                android:textColor="@color/white"
-                android:textSize="13sp" />
-
-        </LinearLayout>
-
-    </RelativeLayout>
-
-</LinearLayout>
-
-
-<RelativeLayout
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:layout_below="@+id/linlay1">
 
     <LinearLayout
-        android:layout_width="430dp"
-        android:layout_height="580dp"
-        android:layout_centerInParent="true"
-        android:layout_marginLeft="30dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginRight="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:orientation="vertical"
-        tools:ignore="UselessParent">
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+        tools:ignore="MissingConstraints">
 
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/txtDOB"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:background="@drawable/medical_id_bg"
+            android:drawableStart="@drawable/calendar2"
+            android:drawablePadding="20dp"
+            android:hint="@string/date_of_birth"
+            android:textColor="@color/dark_blue"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:paddingStart="50dp"
+            android:text="@string/_24_03_2004_19_years_old"
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawablePadding="20dp"
-                android:drawableStart="@drawable/calendar2"
-                android:text="@string/dob_amp_age"
-                android:textColor="@color/headings"
-                android:textSize="13sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:paddingStart="50dp"
-                android:text="@string/_24_03_2004_19_years_old"
-                android:textColor="#000000"
-                android:textSize="16sp" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/grey" />
-
-        </LinearLayout>
-
-        <LinearLayout
+        <View
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="1dp"
             android:layout_marginTop="15dp"
-            android:orientation="vertical">
+            android:background="@color/grey" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableStart="@drawable/clipboard_list_svgrepo_com__2_"
-                android:drawablePadding="20dp"
-                android:text="@string/med_conditions"
-                android:textColor="@color/headings"
-                android:textSize="13sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:paddingStart="50dp"
-                android:text="@string/diabetes_hypoglycaemia"
-                android:textColor="#000000"
-                android:textSize="16sp" />
+        <TextView
+            android:id="@+id/txtcondition"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/medical_id_bg"
+            android:drawableStart="@drawable/clipboard_list_svgrepo_com__2_"
+            android:drawablePadding="20dp"
+            android:hint="@string/medical_conditions"
+            android:textColor="@color/dark_blue"
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/grey" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="15dp"
-            android:orientation="vertical">
+            android:paddingStart="50dp"
+            android:text="@string/diabetes_hypoglycaemia"
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableStart="@drawable/medicine_svgrepo_com"
-                android:text="@string/medication"
-                android:drawablePadding="20dp"
-                android:textColor="@color/headings"
-                android:textSize="13sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:paddingStart="50dp"
-                android:text="@string/reaction_profile"
-                android:textColor="#000000"
-                android:textSize="16sp" />
-
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/grey" />
-
-        </LinearLayout>
-
-        <LinearLayout
+        <View
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="1dp"
             android:layout_marginTop="15dp"
-            android:orientation="vertical">
+            android:background="@color/grey" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableStart="@drawable/no_svgrepo_com"
-                android:text="@string/allergies_amp_reactions"
-                android:drawablePadding="20dp"
-                android:textColor="@color/headings"
-                android:textSize="13sp"/>
+        <TextView
+            android:id="@+id/txtcondition4"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/medical_id_bg"
+            android:drawableStart="@drawable/medicine_svgrepo_com"
+            android:drawablePadding="20dp"
+            android:hint="@string/current_medication"
+            android:textColor="@color/dark_blue"
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:paddingStart="50dp"
-                android:text="@string/penicillin_severe_skin_rash"
-                android:textColor="#000000"
-                android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="50dp"
+            android:text="@string/reaction_profile"
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/grey" />
-
-        </LinearLayout>
-
-        <LinearLayout
+        <View
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="1dp"
             android:layout_marginTop="15dp"
-            android:orientation="vertical">
+            android:background="@color/grey" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableStart="@drawable/blood_type_svgrepo_com"
-                android:text="@string/blood_type_jane"
-                android:drawablePadding="20dp"
-                android:textColor="@color/headings"
-                android:textSize="13sp" />
+        <TextView
+            android:id="@+id/txtcondition3"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/medical_id_bg"
+            android:drawableStart="@drawable/no_svgrepo_com"
+            android:drawablePadding="20dp"
+            android:hint="@string/allergies"
+            android:textColor="@color/dark_blue"
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:paddingStart="50dp"
-                android:text="@string/jane_blood_type"
-                android:textColor="#000000"
-                android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="50dp"
+            android:text="@string/penicillin_severe_skin_rash"
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/grey" />
-
-        </LinearLayout>
-
-        <LinearLayout
+        <View
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="1dp"
             android:layout_marginTop="15dp"
-            android:orientation="vertical">
+            android:background="@color/grey" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableStart="@drawable/weight_svgrepo_com"
-                android:text="Weight &amp; Height"
-                android:drawablePadding="20dp"
-                android:textColor="@color/headings"
-                android:textSize="13sp" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:paddingStart="50dp"
-                android:text="@string/height_and_weight"
-                android:textColor="#000000"
-                android:textSize="16sp" />
+        <TextView
+            android:id="@+id/txtcondition2"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/medical_id_bg"
+            android:drawableStart="@drawable/blood_type_svgrepo_com"
+            android:drawablePadding="20dp"
+            android:hint="@string/blood_type"
+            android:textColor="@color/dark_blue"
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/grey" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="50dp"
+            android:text="@string/jane_blood_type"
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
-        </LinearLayout>
-
-        <LinearLayout
+        <View
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="1dp"
             android:layout_marginTop="15dp"
-            android:orientation="vertical">
+            android:background="@color/grey" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:drawableStart="@drawable/donations_svgrepo_com"
-                android:text="Organ Donor?"
-                android:drawablePadding="20dp"
-                android:textColor="@color/headings"
-                android:textSize="13sp" />
+        <TextView
+            android:id="@+id/txtcondition5"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/medical_id_bg"
+            android:drawableStart="@drawable/weight_svgrepo_com"
+            android:drawablePadding="20dp"
+            android:hint="@string/weight"
+            android:textColor="@color/dark_blue"
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:fontFamily="sans-serif-light"
-                android:paddingStart="50dp"
-                android:text="Yes"
-                android:textColor="#000000"
-                android:textSize="16sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="50dp"
+            android:text="54kg"
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="1dp"
-                android:layout_marginTop="15dp"
-                android:background="@color/grey" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/grey" />
 
-        </LinearLayout>
+        <TextView
+            android:id="@+id/txtcondition6"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/medical_id_bg"
+            android:drawableStart="@drawable/stick_man_svgrepo_com"
+            android:drawablePadding="20dp"
+            android:hint="@string/height"
+            android:textColor="@color/dark_blue"
+            android:textSize="17sp"
+            android:textStyle="bold" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="50dp"
+            android:text="162cm"
+            android:textColor="#000000"
+            android:textSize="16sp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="15dp"
+            android:background="@color/grey" />
+
+        <TextView
+            android:id="@+id/txtcondition7"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/medical_id_bg"
+            android:drawableStart="@drawable/donations_svgrepo_com"
+            android:drawablePadding="20dp"
+            android:hint="@string/organ_donor"
+            android:textColor="@color/dark_blue"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingStart="50dp"
+            android:text="Yes"
+            android:textColor="#000000"
+            android:textSize="16sp" />
 
     </LinearLayout>
 
-</RelativeLayout>
-
-</RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

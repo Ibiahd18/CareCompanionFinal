@@ -70,7 +70,7 @@
             android:parentActivityName=".MainActivity" />
         <activity
             android:name=".MedicalIDActivity"
-            android:exported="false"
+            android:exported="true"
             android:label="Medical ID"
             android:parentActivityName=".MainActivity" />
         <activity

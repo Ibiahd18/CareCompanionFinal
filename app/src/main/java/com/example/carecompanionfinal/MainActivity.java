@@ -93,9 +93,4 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-
-//    @Override
-//    public boolean onNavigationItemSelected(@NonNull MenuItem menuItem) {
-//        return false;
-//    }
 }
